@@ -1,0 +1,65 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.example.gradle.dividerapkdemo"
+        minSdkVersion 15
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+// to test order
+println 'build.gradle的配置阶段'
+
+// 创建一个Task 。 一定要注意，配置阶段不仅执行build.gradle中的语句，还包括了 aTask 中的配置语句
+task aTask() {
+    println 'aTask 中的配置代码'
+    // 定义一个闭包
+    def a = {
+        println 'aTask 中的配置代码2'
+    }
+    // 执行闭包
+    a()
+    doFirst {
+        println 'aTask doFirst,这段代码配置阶段不执行'
+    }
+    doLast {
+        println 'aTask doLast,这段代码配置阶段不执行'
+    }
+}
+
+gradle.beforeProject {
+    println 'app: beforeProject'
+}
+
+tasks.whenTaskAdded { task ->
+    android.applicationVariants.all { variant ->
+        println "tasks.whenTaskAdded==> ${variant}"
+    }
+}
+
+dependencies {
+    println 'start to solve dependencies'
+
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+}
