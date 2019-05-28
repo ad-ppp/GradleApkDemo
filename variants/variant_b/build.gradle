@@ -23,43 +23,10 @@ android {
 
 }
 
-task grandpa {
-    doFirst {
-        println 'task grandpa：doFirst 先于 doLast 执行'
-    }
-    doLast {
-        println 'task grandpa：doLast'
-    }
-}
-
-task father(dependsOn: grandpa) {
-    doLast {
-        println 'task father：doLast'
-    }
-}
-
-task mother << {
-    println 'task mother 先于 task father 执行'
-}
-
-task child(dependsOn: [father, mother]){
-    doLast {
-        println 'task child 最后执行'
-    }
-}
-
-task nobody {
-    doLast {
-        println '我不执行'
-    }
-}
-// 指定任务father必须在任务mother之后执行
-father.mustRunAfter mother
-
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    implementation rootProject.ext.appCompatV7
+    implementation 'com.android.support:appcompat-v7:28.0.0'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'

@@ -1,4 +1,5 @@
 include ':app', ':sublib'
+//        ':variants:variant_a', ':variants:variant_b'
 
 gradle.settingsEvaluated { setting ->
     // do something with setting
