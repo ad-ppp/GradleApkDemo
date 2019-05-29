@@ -21,3 +21,4 @@ gradle ${taskName} tasktree --no-repeat
 ### Thanks to
 1. [Gradle基础 - 构建生命周期和Hook技术](https://www.jianshu.com/p/0acdb31eef2d)
 2. [构建差异化 apk-Gradle妙用，统一化自动依赖管理](https://mp.weixin.qq.com/s/Lhae-ou5gEcXjUFnuVCwaw)
+3. [Android Gradle Plugin源码分析](https://www.jianshu.com/p/11f030b2034f)

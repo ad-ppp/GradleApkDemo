@@ -1,0 +1,1593 @@
+setting.gradle settingsEvaluated
+初始化阶段，耗时：5ms
+start execute project buildscript dependencies
+start execute project gradle
+taskName : [DefaultTaskExecutionRequest{args=[build, tasktree, --no-repeat],projectPath='null'}]
+currentFlavor:cannot_find_current_flavor
+sign config <----
+build.gradle的配置阶段
+aTask 中的配置代码
+aTask 中的配置代码2
+taskName ==>: build
+start to solve dependencies
+applicationVariants.all; variant.buildType.name: debug
+applicationVariants.all; variant.buildType.name: release
+applicationVariants.all; variant.buildType.name: debug
+applicationVariants.all; variant.buildType.name: release
+app: beforeProject
+app: beforeProject
+app: beforeProject
+app: beforeProject
+:app:checkVariant_aDebugClasspath SKIPPED
+:app:preBuild SKIPPED
+:variants:variant_a:preBuild SKIPPED
+:variants:variant_a:preDebugBuild SKIPPED
+:variants:variant_a:checkDebugManifest SKIPPED
+:variants:variant_a:processDebugManifest SKIPPED
+:app:preVariant_aDebugBuild SKIPPED
+:variants:variant_a:compileDebugAidl SKIPPED
+:app:compileVariant_aDebugAidl SKIPPED
+:variants:variant_a:packageDebugRenderscript SKIPPED
+:app:compileVariant_aDebugRenderscript SKIPPED
+:app:checkVariant_aDebugManifest SKIPPED
+:app:generateVariant_aDebugBuildConfig SKIPPED
+:app:mainApkListPersistenceVariant_aDebug SKIPPED
+:app:generateVariant_aDebugResValues SKIPPED
+:app:generateVariant_aDebugResources SKIPPED
+:variants:variant_a:compileDebugRenderscript SKIPPED
+:variants:variant_a:generateDebugResValues SKIPPED
+:variants:variant_a:generateDebugResources SKIPPED
+:variants:variant_a:packageDebugResources SKIPPED
+:app:mergeVariant_aDebugResources SKIPPED
+:app:createVariant_aDebugCompatibleScreenManifests SKIPPED
+:app:processVariant_aDebugManifest SKIPPED
+:app:splitsDiscoveryTaskVariant_aDebug SKIPPED
+:variants:variant_a:generateDebugRFile SKIPPED
+:app:processVariant_aDebugResources SKIPPED
+:variants:variant_a:generateDebugBuildConfig SKIPPED
+:variants:variant_a:prepareLintJar SKIPPED
+:variants:variant_a:generateDebugSources SKIPPED
+:variants:variant_a:javaPreCompileDebug SKIPPED
+:variants:variant_a:compileDebugJavaWithJavac SKIPPED
+:variants:variant_a:processDebugJavaRes SKIPPED
+:variants:variant_a:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug SKIPPED
+:app:compileVariant_aDebugKotlin SKIPPED
+:app:prepareLintJar SKIPPED
+:app:generateVariant_aDebugSources SKIPPED
+:app:javaPreCompileVariant_aDebug SKIPPED
+:app:compileVariant_aDebugJavaWithJavac SKIPPED
+:app:compileVariant_aDebugNdk SKIPPED
+:app:compileVariant_aDebugSources SKIPPED
+:app:mergeVariant_aDebugShaders SKIPPED
+:app:compileVariant_aDebugShaders SKIPPED
+:app:generateVariant_aDebugAssets SKIPPED
+:variants:variant_a:mergeDebugShaders SKIPPED
+:variants:variant_a:compileDebugShaders SKIPPED
+:variants:variant_a:generateDebugAssets SKIPPED
+:variants:variant_a:packageDebugAssets SKIPPED
+:app:mergeVariant_aDebugAssets SKIPPED
+:app:transformClassesWithDexBuilderForVariant_aDebug SKIPPED
+:app:transformDexArchiveWithExternalLibsDexMergerForVariant_aDebug SKIPPED
+:app:transformDexArchiveWithDexMergerForVariant_aDebug SKIPPED
+:app:mergeVariant_aDebugJniLibFolders SKIPPED
+:variants:variant_a:compileDebugNdk SKIPPED
+:variants:variant_a:mergeDebugJniLibFolders SKIPPED
+:variants:variant_a:transformNativeLibsWithMergeJniLibsForDebug SKIPPED
+:variants:variant_a:transformNativeLibsWithStripDebugSymbolForDebug SKIPPED
+:variants:variant_a:transformNativeLibsWithIntermediateJniLibsForDebug SKIPPED
+:app:transformNativeLibsWithMergeJniLibsForVariant_aDebug SKIPPED
+:app:transformNativeLibsWithStripDebugSymbolForVariant_aDebug SKIPPED
+:app:checkVariant_aDebugLibraries SKIPPED
+:app:processVariant_aDebugJavaRes SKIPPED
+:app:transformResourcesWithMergeJavaResForVariant_aDebug SKIPPED
+:app:validateSigningVariant_aDebug SKIPPED
+:app:packageVariant_aDebug SKIPPED
+:app:assembleVariant_aDebug SKIPPED
+:app:checkVariant_bDebugClasspath SKIPPED
+:app:preVariant_bDebugBuild SKIPPED
+:app:compileVariant_bDebugAidl SKIPPED
+:app:compileVariant_bDebugRenderscript SKIPPED
+:app:checkVariant_bDebugManifest SKIPPED
+:app:generateVariant_bDebugBuildConfig SKIPPED
+:app:mainApkListPersistenceVariant_bDebug SKIPPED
+:app:generateVariant_bDebugResValues SKIPPED
+:app:generateVariant_bDebugResources SKIPPED
+:app:mergeVariant_bDebugResources SKIPPED
+:app:createVariant_bDebugCompatibleScreenManifests SKIPPED
+:app:processVariant_bDebugManifest SKIPPED
+:app:splitsDiscoveryTaskVariant_bDebug SKIPPED
+:app:processVariant_bDebugResources SKIPPED
+:app:compileVariant_bDebugKotlin SKIPPED
+:app:generateVariant_bDebugSources SKIPPED
+:app:javaPreCompileVariant_bDebug SKIPPED
+:app:compileVariant_bDebugJavaWithJavac SKIPPED
+:app:compileVariant_bDebugNdk SKIPPED
+:app:compileVariant_bDebugSources SKIPPED
+:app:mergeVariant_bDebugShaders SKIPPED
+:app:compileVariant_bDebugShaders SKIPPED
+:app:generateVariant_bDebugAssets SKIPPED
+:app:mergeVariant_bDebugAssets SKIPPED
+:app:transformClassesWithDexBuilderForVariant_bDebug SKIPPED
+:app:transformDexArchiveWithExternalLibsDexMergerForVariant_bDebug SKIPPED
+:app:transformDexArchiveWithDexMergerForVariant_bDebug SKIPPED
+:app:mergeVariant_bDebugJniLibFolders SKIPPED
+:app:transformNativeLibsWithMergeJniLibsForVariant_bDebug SKIPPED
+:app:transformNativeLibsWithStripDebugSymbolForVariant_bDebug SKIPPED
+:app:checkVariant_bDebugLibraries SKIPPED
+:app:processVariant_bDebugJavaRes SKIPPED
+:app:transformResourcesWithMergeJavaResForVariant_bDebug SKIPPED
+:app:validateSigningVariant_bDebug SKIPPED
+:app:packageVariant_bDebug SKIPPED
+:app:assembleVariant_bDebug SKIPPED
+:app:assembleDebug SKIPPED
+:app:checkVariant_aReleaseClasspath SKIPPED
+:variants:variant_a:preReleaseBuild SKIPPED
+:variants:variant_a:checkReleaseManifest SKIPPED
+:variants:variant_a:processReleaseManifest SKIPPED
+:app:preVariant_aReleaseBuild SKIPPED
+:variants:variant_a:compileReleaseAidl SKIPPED
+:app:compileVariant_aReleaseAidl SKIPPED
+:variants:variant_a:packageReleaseRenderscript SKIPPED
+:app:compileVariant_aReleaseRenderscript SKIPPED
+:app:checkVariant_aReleaseManifest SKIPPED
+:app:generateVariant_aReleaseBuildConfig SKIPPED
+:app:mainApkListPersistenceVariant_aRelease SKIPPED
+:app:generateVariant_aReleaseResValues SKIPPED
+:app:generateVariant_aReleaseResources SKIPPED
+:variants:variant_a:compileReleaseRenderscript SKIPPED
+:variants:variant_a:generateReleaseResValues SKIPPED
+:variants:variant_a:generateReleaseResources SKIPPED
+:variants:variant_a:packageReleaseResources SKIPPED
+:app:mergeVariant_aReleaseResources SKIPPED
+:app:createVariant_aReleaseCompatibleScreenManifests SKIPPED
+:app:processVariant_aReleaseManifest SKIPPED
+:app:splitsDiscoveryTaskVariant_aRelease SKIPPED
+:variants:variant_a:generateReleaseRFile SKIPPED
+:app:processVariant_aReleaseResources SKIPPED
+:variants:variant_a:generateReleaseBuildConfig SKIPPED
+:variants:variant_a:generateReleaseSources SKIPPED
+:variants:variant_a:javaPreCompileRelease SKIPPED
+:variants:variant_a:compileReleaseJavaWithJavac SKIPPED
+:variants:variant_a:processReleaseJavaRes SKIPPED
+:variants:variant_a:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease SKIPPED
+:app:compileVariant_aReleaseKotlin SKIPPED
+:app:generateVariant_aReleaseSources SKIPPED
+:app:javaPreCompileVariant_aRelease SKIPPED
+:app:compileVariant_aReleaseJavaWithJavac SKIPPED
+:app:compileVariant_aReleaseNdk SKIPPED
+:app:compileVariant_aReleaseSources SKIPPED
+:app:lintVitalVariant_aRelease SKIPPED
+:app:mergeVariant_aReleaseShaders SKIPPED
+:app:compileVariant_aReleaseShaders SKIPPED
+:app:generateVariant_aReleaseAssets SKIPPED
+:variants:variant_a:mergeReleaseShaders SKIPPED
+:variants:variant_a:compileReleaseShaders SKIPPED
+:variants:variant_a:generateReleaseAssets SKIPPED
+:variants:variant_a:packageReleaseAssets SKIPPED
+:app:mergeVariant_aReleaseAssets SKIPPED
+:app:transformClassesWithDexBuilderForVariant_aRelease SKIPPED
+:app:transformDexArchiveWithExternalLibsDexMergerForVariant_aRelease SKIPPED
+:app:transformDexArchiveWithDexMergerForVariant_aRelease SKIPPED
+:app:mergeVariant_aReleaseJniLibFolders SKIPPED
+:variants:variant_a:compileReleaseNdk SKIPPED
+:variants:variant_a:mergeReleaseJniLibFolders SKIPPED
+:variants:variant_a:transformNativeLibsWithMergeJniLibsForRelease SKIPPED
+:variants:variant_a:transformNativeLibsWithStripDebugSymbolForRelease SKIPPED
+:variants:variant_a:transformNativeLibsWithIntermediateJniLibsForRelease SKIPPED
+:app:transformNativeLibsWithMergeJniLibsForVariant_aRelease SKIPPED
+:app:transformNativeLibsWithStripDebugSymbolForVariant_aRelease SKIPPED
+:app:checkVariant_aReleaseLibraries SKIPPED
+:app:processVariant_aReleaseJavaRes SKIPPED
+:app:transformResourcesWithMergeJavaResForVariant_aRelease SKIPPED
+:app:packageVariant_aRelease SKIPPED
+:app:assembleVariant_aRelease SKIPPED
+:app:checkVariant_bReleaseClasspath SKIPPED
+:app:preVariant_bReleaseBuild SKIPPED
+:app:compileVariant_bReleaseAidl SKIPPED
+:app:compileVariant_bReleaseRenderscript SKIPPED
+:app:checkVariant_bReleaseManifest SKIPPED
+:app:generateVariant_bReleaseBuildConfig SKIPPED
+:app:mainApkListPersistenceVariant_bRelease SKIPPED
+:app:generateVariant_bReleaseResValues SKIPPED
+:app:generateVariant_bReleaseResources SKIPPED
+:app:mergeVariant_bReleaseResources SKIPPED
+:app:createVariant_bReleaseCompatibleScreenManifests SKIPPED
+:app:processVariant_bReleaseManifest SKIPPED
+:app:splitsDiscoveryTaskVariant_bRelease SKIPPED
+:app:processVariant_bReleaseResources SKIPPED
+:app:compileVariant_bReleaseKotlin SKIPPED
+:app:generateVariant_bReleaseSources SKIPPED
+:app:javaPreCompileVariant_bRelease SKIPPED
+:app:compileVariant_bReleaseJavaWithJavac SKIPPED
+:app:compileVariant_bReleaseNdk SKIPPED
+:app:compileVariant_bReleaseSources SKIPPED
+:app:lintVitalVariant_bRelease SKIPPED
+:app:mergeVariant_bReleaseShaders SKIPPED
+:app:compileVariant_bReleaseShaders SKIPPED
+:app:generateVariant_bReleaseAssets SKIPPED
+:app:mergeVariant_bReleaseAssets SKIPPED
+:app:transformClassesWithDexBuilderForVariant_bRelease SKIPPED
+:app:transformDexArchiveWithExternalLibsDexMergerForVariant_bRelease SKIPPED
+:app:transformDexArchiveWithDexMergerForVariant_bRelease SKIPPED
+:app:mergeVariant_bReleaseJniLibFolders SKIPPED
+:app:transformNativeLibsWithMergeJniLibsForVariant_bRelease SKIPPED
+:app:transformNativeLibsWithStripDebugSymbolForVariant_bRelease SKIPPED
+:app:checkVariant_bReleaseLibraries SKIPPED
+:app:processVariant_bReleaseJavaRes SKIPPED
+:app:transformResourcesWithMergeJavaResForVariant_bRelease SKIPPED
+:app:packageVariant_bRelease SKIPPED
+:app:assembleVariant_bRelease SKIPPED
+:app:assembleRelease SKIPPED
+:app:assemble SKIPPED
+:app:lint SKIPPED
+:app:compileVariant_aDebugUnitTestKotlin SKIPPED
+:app:generateVariant_aDebugUnitTestSources SKIPPED
+:app:preVariant_aDebugUnitTestBuild SKIPPED
+:app:javaPreCompileVariant_aDebugUnitTest SKIPPED
+:app:compileVariant_aDebugUnitTestJavaWithJavac SKIPPED
+:app:processVariant_aDebugUnitTestJavaRes SKIPPED
+:app:testVariant_aDebugUnitTest SKIPPED
+:app:compileVariant_aReleaseUnitTestKotlin SKIPPED
+:app:generateVariant_aReleaseUnitTestSources SKIPPED
+:app:preVariant_aReleaseUnitTestBuild SKIPPED
+:app:javaPreCompileVariant_aReleaseUnitTest SKIPPED
+:app:compileVariant_aReleaseUnitTestJavaWithJavac SKIPPED
+:app:processVariant_aReleaseUnitTestJavaRes SKIPPED
+:app:testVariant_aReleaseUnitTest SKIPPED
+:app:compileVariant_bDebugUnitTestKotlin SKIPPED
+:app:generateVariant_bDebugUnitTestSources SKIPPED
+:app:preVariant_bDebugUnitTestBuild SKIPPED
+:app:javaPreCompileVariant_bDebugUnitTest SKIPPED
+:app:compileVariant_bDebugUnitTestJavaWithJavac SKIPPED
+:app:processVariant_bDebugUnitTestJavaRes SKIPPED
+:app:testVariant_bDebugUnitTest SKIPPED
+:app:compileVariant_bReleaseUnitTestKotlin SKIPPED
+:app:generateVariant_bReleaseUnitTestSources SKIPPED
+:app:preVariant_bReleaseUnitTestBuild SKIPPED
+:app:javaPreCompileVariant_bReleaseUnitTest SKIPPED
+:app:compileVariant_bReleaseUnitTestJavaWithJavac SKIPPED
+:app:processVariant_bReleaseUnitTestJavaRes SKIPPED
+:app:testVariant_bReleaseUnitTest SKIPPED
+:app:test SKIPPED
+:app:check SKIPPED
+:app:cleanTemp SKIPPED
+:app:build SKIPPED
+:sublib:preBuild SKIPPED
+:sublib:preDebugBuild SKIPPED
+:sublib:compileDebugAidl SKIPPED
+:sublib:compileDebugRenderscript SKIPPED
+:sublib:checkDebugManifest SKIPPED
+:sublib:generateDebugBuildConfig SKIPPED
+:sublib:generateDebugResValues SKIPPED
+:sublib:generateDebugResources SKIPPED
+:sublib:packageDebugResources SKIPPED
+:sublib:processDebugManifest SKIPPED
+:sublib:generateDebugRFile SKIPPED
+:sublib:prepareLintJar SKIPPED
+:sublib:generateDebugSources SKIPPED
+:sublib:javaPreCompileDebug SKIPPED
+:sublib:compileDebugJavaWithJavac SKIPPED
+:sublib:extractDebugAnnotations SKIPPED
+:sublib:mergeDebugConsumerProguardFiles SKIPPED
+:sublib:mergeDebugShaders SKIPPED
+:sublib:compileDebugShaders SKIPPED
+:sublib:generateDebugAssets SKIPPED
+:sublib:packageDebugAssets SKIPPED
+:sublib:packageDebugRenderscript SKIPPED
+:sublib:processDebugJavaRes SKIPPED
+:sublib:transformResourcesWithMergeJavaResForDebug SKIPPED
+:sublib:transformClassesAndResourcesWithSyncLibJarsForDebug SKIPPED
+:sublib:compileDebugNdk SKIPPED
+:sublib:mergeDebugJniLibFolders SKIPPED
+:sublib:transformNativeLibsWithMergeJniLibsForDebug SKIPPED
+:sublib:transformNativeLibsWithStripDebugSymbolForDebug SKIPPED
+:sublib:transformNativeLibsWithSyncJniLibsForDebug SKIPPED
+:sublib:bundleDebugAar SKIPPED
+:sublib:compileDebugSources SKIPPED
+:sublib:assembleDebug SKIPPED
+:sublib:preReleaseBuild SKIPPED
+:sublib:compileReleaseAidl SKIPPED
+:sublib:compileReleaseRenderscript SKIPPED
+:sublib:checkReleaseManifest SKIPPED
+:sublib:generateReleaseBuildConfig SKIPPED
+:sublib:generateReleaseResValues SKIPPED
+:sublib:generateReleaseResources SKIPPED
+:sublib:packageReleaseResources SKIPPED
+:sublib:processReleaseManifest SKIPPED
+:sublib:generateReleaseRFile SKIPPED
+:sublib:generateReleaseSources SKIPPED
+:sublib:javaPreCompileRelease SKIPPED
+:sublib:compileReleaseJavaWithJavac SKIPPED
+:sublib:extractReleaseAnnotations SKIPPED
+:sublib:mergeReleaseConsumerProguardFiles SKIPPED
+:sublib:mergeReleaseShaders SKIPPED
+:sublib:compileReleaseShaders SKIPPED
+:sublib:generateReleaseAssets SKIPPED
+:sublib:packageReleaseAssets SKIPPED
+:sublib:packageReleaseRenderscript SKIPPED
+:sublib:processReleaseJavaRes SKIPPED
+:sublib:transformResourcesWithMergeJavaResForRelease SKIPPED
+:sublib:transformClassesAndResourcesWithSyncLibJarsForRelease SKIPPED
+:sublib:compileReleaseNdk SKIPPED
+:sublib:mergeReleaseJniLibFolders SKIPPED
+:sublib:transformNativeLibsWithMergeJniLibsForRelease SKIPPED
+:sublib:transformNativeLibsWithStripDebugSymbolForRelease SKIPPED
+:sublib:transformNativeLibsWithSyncJniLibsForRelease SKIPPED
+:sublib:bundleReleaseAar SKIPPED
+:sublib:compileReleaseSources SKIPPED
+:sublib:mergeReleaseResources SKIPPED
+:sublib:verifyReleaseResources SKIPPED
+:sublib:assembleRelease SKIPPED
+:sublib:assemble SKIPPED
+:sublib:lint SKIPPED
+:sublib:generateDebugUnitTestSources SKIPPED
+:sublib:preDebugUnitTestBuild SKIPPED
+:sublib:javaPreCompileDebugUnitTest SKIPPED
+:sublib:compileDebugUnitTestJavaWithJavac SKIPPED
+:sublib:processDebugUnitTestJavaRes SKIPPED
+:sublib:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug SKIPPED
+:sublib:testDebugUnitTest SKIPPED
+:sublib:generateReleaseUnitTestSources SKIPPED
+:sublib:preReleaseUnitTestBuild SKIPPED
+:sublib:javaPreCompileReleaseUnitTest SKIPPED
+:sublib:compileReleaseUnitTestJavaWithJavac SKIPPED
+:sublib:processReleaseUnitTestJavaRes SKIPPED
+:sublib:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease SKIPPED
+:sublib:testReleaseUnitTest SKIPPED
+:sublib:test SKIPPED
+:sublib:check SKIPPED
+:sublib:build SKIPPED
+:variants:variant_a:extractDebugAnnotations SKIPPED
+:variants:variant_a:mergeDebugConsumerProguardFiles SKIPPED
+:variants:variant_a:transformResourcesWithMergeJavaResForDebug SKIPPED
+:variants:variant_a:transformClassesAndResourcesWithSyncLibJarsForDebug SKIPPED
+:variants:variant_a:transformNativeLibsWithSyncJniLibsForDebug SKIPPED
+:variants:variant_a:bundleDebugAar SKIPPED
+:variants:variant_a:compileDebugSources SKIPPED
+:variants:variant_a:assembleDebug SKIPPED
+:variants:variant_a:extractReleaseAnnotations SKIPPED
+:variants:variant_a:mergeReleaseConsumerProguardFiles SKIPPED
+:variants:variant_a:transformResourcesWithMergeJavaResForRelease SKIPPED
+:variants:variant_a:transformClassesAndResourcesWithSyncLibJarsForRelease SKIPPED
+:variants:variant_a:transformNativeLibsWithSyncJniLibsForRelease SKIPPED
+:variants:variant_a:bundleReleaseAar SKIPPED
+:variants:variant_a:compileReleaseSources SKIPPED
+:variants:variant_a:mergeReleaseResources SKIPPED
+:variants:variant_a:verifyReleaseResources SKIPPED
+:variants:variant_a:assembleRelease SKIPPED
+:variants:variant_a:assemble SKIPPED
+:variants:variant_a:lint SKIPPED
+:variants:variant_a:generateDebugUnitTestSources SKIPPED
+:variants:variant_a:preDebugUnitTestBuild SKIPPED
+:variants:variant_a:javaPreCompileDebugUnitTest SKIPPED
+:variants:variant_a:compileDebugUnitTestJavaWithJavac SKIPPED
+:variants:variant_a:processDebugUnitTestJavaRes SKIPPED
+:variants:variant_a:testDebugUnitTest SKIPPED
+:variants:variant_a:generateReleaseUnitTestSources SKIPPED
+:variants:variant_a:preReleaseUnitTestBuild SKIPPED
+:variants:variant_a:javaPreCompileReleaseUnitTest SKIPPED
+:variants:variant_a:compileReleaseUnitTestJavaWithJavac SKIPPED
+:variants:variant_a:processReleaseUnitTestJavaRes SKIPPED
+:variants:variant_a:testReleaseUnitTest SKIPPED
+:variants:variant_a:test SKIPPED
+:variants:variant_a:check SKIPPED
+:variants:variant_a:build SKIPPED
+:variants:variant_b:preBuild SKIPPED
+:variants:variant_b:preDebugBuild SKIPPED
+:variants:variant_b:compileDebugAidl SKIPPED
+:variants:variant_b:compileDebugRenderscript SKIPPED
+:variants:variant_b:checkDebugManifest SKIPPED
+:variants:variant_b:generateDebugBuildConfig SKIPPED
+:variants:variant_b:generateDebugResValues SKIPPED
+:variants:variant_b:generateDebugResources SKIPPED
+:variants:variant_b:packageDebugResources SKIPPED
+:variants:variant_b:processDebugManifest SKIPPED
+:variants:variant_b:generateDebugRFile SKIPPED
+:variants:variant_b:prepareLintJar SKIPPED
+:variants:variant_b:generateDebugSources SKIPPED
+:variants:variant_b:javaPreCompileDebug SKIPPED
+:variants:variant_b:compileDebugJavaWithJavac SKIPPED
+:variants:variant_b:extractDebugAnnotations SKIPPED
+:variants:variant_b:mergeDebugConsumerProguardFiles SKIPPED
+:variants:variant_b:mergeDebugShaders SKIPPED
+:variants:variant_b:compileDebugShaders SKIPPED
+:variants:variant_b:generateDebugAssets SKIPPED
+:variants:variant_b:packageDebugAssets SKIPPED
+:variants:variant_b:packageDebugRenderscript SKIPPED
+:variants:variant_b:processDebugJavaRes SKIPPED
+:variants:variant_b:transformResourcesWithMergeJavaResForDebug SKIPPED
+:variants:variant_b:transformClassesAndResourcesWithSyncLibJarsForDebug SKIPPED
+:variants:variant_b:compileDebugNdk SKIPPED
+:variants:variant_b:mergeDebugJniLibFolders SKIPPED
+:variants:variant_b:transformNativeLibsWithMergeJniLibsForDebug SKIPPED
+:variants:variant_b:transformNativeLibsWithStripDebugSymbolForDebug SKIPPED
+:variants:variant_b:transformNativeLibsWithSyncJniLibsForDebug SKIPPED
+:variants:variant_b:bundleDebugAar SKIPPED
+:variants:variant_b:compileDebugSources SKIPPED
+:variants:variant_b:assembleDebug SKIPPED
+:variants:variant_b:preReleaseBuild SKIPPED
+:variants:variant_b:compileReleaseAidl SKIPPED
+:variants:variant_b:compileReleaseRenderscript SKIPPED
+:variants:variant_b:checkReleaseManifest SKIPPED
+:variants:variant_b:generateReleaseBuildConfig SKIPPED
+:variants:variant_b:generateReleaseResValues SKIPPED
+:variants:variant_b:generateReleaseResources SKIPPED
+:variants:variant_b:packageReleaseResources SKIPPED
+:variants:variant_b:processReleaseManifest SKIPPED
+:variants:variant_b:generateReleaseRFile SKIPPED
+:variants:variant_b:generateReleaseSources SKIPPED
+:variants:variant_b:javaPreCompileRelease SKIPPED
+:variants:variant_b:compileReleaseJavaWithJavac SKIPPED
+:variants:variant_b:extractReleaseAnnotations SKIPPED
+:variants:variant_b:mergeReleaseConsumerProguardFiles SKIPPED
+:variants:variant_b:mergeReleaseShaders SKIPPED
+:variants:variant_b:compileReleaseShaders SKIPPED
+:variants:variant_b:generateReleaseAssets SKIPPED
+:variants:variant_b:packageReleaseAssets SKIPPED
+:variants:variant_b:packageReleaseRenderscript SKIPPED
+:variants:variant_b:processReleaseJavaRes SKIPPED
+:variants:variant_b:transformResourcesWithMergeJavaResForRelease SKIPPED
+:variants:variant_b:transformClassesAndResourcesWithSyncLibJarsForRelease SKIPPED
+:variants:variant_b:compileReleaseNdk SKIPPED
+:variants:variant_b:mergeReleaseJniLibFolders SKIPPED
+:variants:variant_b:transformNativeLibsWithMergeJniLibsForRelease SKIPPED
+:variants:variant_b:transformNativeLibsWithStripDebugSymbolForRelease SKIPPED
+:variants:variant_b:transformNativeLibsWithSyncJniLibsForRelease SKIPPED
+:variants:variant_b:bundleReleaseAar SKIPPED
+:variants:variant_b:compileReleaseSources SKIPPED
+:variants:variant_b:mergeReleaseResources SKIPPED
+:variants:variant_b:verifyReleaseResources SKIPPED
+:variants:variant_b:assembleRelease SKIPPED
+:variants:variant_b:assemble SKIPPED
+:variants:variant_b:lint SKIPPED
+:variants:variant_b:generateDebugUnitTestSources SKIPPED
+:variants:variant_b:preDebugUnitTestBuild SKIPPED
+:variants:variant_b:javaPreCompileDebugUnitTest SKIPPED
+:variants:variant_b:compileDebugUnitTestJavaWithJavac SKIPPED
+:variants:variant_b:processDebugUnitTestJavaRes SKIPPED
+:variants:variant_b:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug SKIPPED
+:variants:variant_b:testDebugUnitTest SKIPPED
+:variants:variant_b:generateReleaseUnitTestSources SKIPPED
+:variants:variant_b:preReleaseUnitTestBuild SKIPPED
+:variants:variant_b:javaPreCompileReleaseUnitTest SKIPPED
+:variants:variant_b:compileReleaseUnitTestJavaWithJavac SKIPPED
+:variants:variant_b:processReleaseUnitTestJavaRes SKIPPED
+:variants:variant_b:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease SKIPPED
+:variants:variant_b:testReleaseUnitTest SKIPPED
+:variants:variant_b:test SKIPPED
+:variants:variant_b:check SKIPPED
+:variants:variant_b:build SKIPPED
+:taskTree
+
+------------------------------------------------------------
+Root project
+------------------------------------------------------------
+
+
+(*) - subtree omitted (printed previously)
+
+To see task dependency tree for a specific task, run gradle <project-path>:<task> <project-path>:taskTree [--no-repeat]
+Executions of all tasks except for taskTree will be skipped. They will be used for building the task graph only.
+
+Add --no-repeat to prevent printing a subtree of the same task more than once.
+
+For example, try running gradle :app:build :app:taskTree
+:app:taskTree
+
+------------------------------------------------------------
+Project :app
+------------------------------------------------------------
+
+:app:build
++--- :app:assemble
+|    +--- :app:assembleDebug
+|    |    +--- :app:assembleVariant_aDebug
+|    |    |    +--- :app:compileVariant_aDebugSources
+|    |    |    |    +--- :app:compileVariant_aDebugJavaWithJavac
+|    |    |    |    |    +--- :app:compileVariant_aDebugAidl
+|    |    |    |    |    |    +--- :app:preVariant_aDebugBuild
+|    |    |    |    |    |    |    +--- :app:checkVariant_aDebugClasspath
+|    |    |    |    |    |    |    +--- :app:preBuild
+|    |    |    |    |    |    |    \--- :variants:variant_a:processDebugManifest
+|    |    |    |    |    |    |         \--- :variants:variant_a:checkDebugManifest
+|    |    |    |    |    |    |              \--- :variants:variant_a:preDebugBuild
+|    |    |    |    |    |    |                   \--- :variants:variant_a:preBuild
+|    |    |    |    |    |    \--- :variants:variant_a:compileDebugAidl
+|    |    |    |    |    |         \--- :variants:variant_a:preDebugBuild *
+|    |    |    |    |    +--- :app:compileVariant_aDebugKotlin
+|    |    |    |    |    |    +--- :app:compileVariant_aDebugAidl *
+|    |    |    |    |    |    +--- :app:compileVariant_aDebugRenderscript
+|    |    |    |    |    |    |    +--- :app:preVariant_aDebugBuild *
+|    |    |    |    |    |    |    \--- :variants:variant_a:packageDebugRenderscript
+|    |    |    |    |    |    +--- :app:generateVariant_aDebugBuildConfig
+|    |    |    |    |    |    |    \--- :app:checkVariant_aDebugManifest
+|    |    |    |    |    |    |         \--- :app:preVariant_aDebugBuild *
+|    |    |    |    |    |    +--- :app:processVariant_aDebugResources
+|    |    |    |    |    |    |    +--- :app:mainApkListPersistenceVariant_aDebug
+|    |    |    |    |    |    |    +--- :app:mergeVariant_aDebugResources
+|    |    |    |    |    |    |    |    +--- :app:generateVariant_aDebugResources
+|    |    |    |    |    |    |    |    |    +--- :app:compileVariant_aDebugRenderscript *
+|    |    |    |    |    |    |    |    |    \--- :app:generateVariant_aDebugResValues
+|    |    |    |    |    |    |    |    \--- :variants:variant_a:packageDebugResources
+|    |    |    |    |    |    |    |         \--- :variants:variant_a:generateDebugResources
+|    |    |    |    |    |    |    |              +--- :variants:variant_a:compileDebugRenderscript
+|    |    |    |    |    |    |    |              |    \--- :variants:variant_a:preDebugBuild *
+|    |    |    |    |    |    |    |              \--- :variants:variant_a:generateDebugResValues
+|    |    |    |    |    |    |    +--- :app:processVariant_aDebugManifest
+|    |    |    |    |    |    |    |    +--- :app:checkVariant_aDebugManifest *
+|    |    |    |    |    |    |    |    +--- :app:createVariant_aDebugCompatibleScreenManifests
+|    |    |    |    |    |    |    |    +--- :app:mainApkListPersistenceVariant_aDebug *
+|    |    |    |    |    |    |    |    \--- :variants:variant_a:processDebugManifest *
+|    |    |    |    |    |    |    +--- :app:splitsDiscoveryTaskVariant_aDebug
+|    |    |    |    |    |    |    \--- :variants:variant_a:generateDebugRFile
+|    |    |    |    |    |    |         +--- :variants:variant_a:packageDebugResources *
+|    |    |    |    |    |    |         \--- :variants:variant_a:processDebugManifest *
+|    |    |    |    |    |    \--- :variants:variant_a:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+|    |    |    |    |    |         +--- :variants:variant_a:compileDebugJavaWithJavac
+|    |    |    |    |    |         |    +--- :variants:variant_a:compileDebugAidl *
+|    |    |    |    |    |         |    +--- :variants:variant_a:compileDebugRenderscript *
+|    |    |    |    |    |         |    +--- :variants:variant_a:generateDebugBuildConfig
+|    |    |    |    |    |         |    |    \--- :variants:variant_a:checkDebugManifest *
+|    |    |    |    |    |         |    +--- :variants:variant_a:generateDebugRFile *
+|    |    |    |    |    |         |    +--- :variants:variant_a:generateDebugSources
+|    |    |    |    |    |         |    |    +--- :variants:variant_a:compileDebugAidl *
+|    |    |    |    |    |         |    |    +--- :variants:variant_a:compileDebugRenderscript *
+|    |    |    |    |    |         |    |    +--- :variants:variant_a:generateDebugBuildConfig *
+|    |    |    |    |    |         |    |    +--- :variants:variant_a:generateDebugRFile *
+|    |    |    |    |    |         |    |    \--- :variants:variant_a:prepareLintJar
+|    |    |    |    |    |         |    \--- :variants:variant_a:javaPreCompileDebug
+|    |    |    |    |    |         |         \--- :variants:variant_a:preDebugBuild *
+|    |    |    |    |    |         \--- :variants:variant_a:processDebugJavaRes
+|    |    |    |    |    |              \--- :variants:variant_a:preDebugBuild *
+|    |    |    |    |    +--- :app:compileVariant_aDebugRenderscript *
+|    |    |    |    |    +--- :app:generateVariant_aDebugBuildConfig *
+|    |    |    |    |    +--- :app:generateVariant_aDebugSources
+|    |    |    |    |    |    +--- :app:compileVariant_aDebugAidl *
+|    |    |    |    |    |    +--- :app:compileVariant_aDebugRenderscript *
+|    |    |    |    |    |    +--- :app:generateVariant_aDebugBuildConfig *
+|    |    |    |    |    |    +--- :app:prepareLintJar
+|    |    |    |    |    |    \--- :app:processVariant_aDebugResources *
+|    |    |    |    |    +--- :app:javaPreCompileVariant_aDebug
+|    |    |    |    |    |    +--- :app:compileVariant_aDebugKotlin *
+|    |    |    |    |    |    +--- :app:preVariant_aDebugBuild *
+|    |    |    |    |    |    \--- :variants:variant_a:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug *
+|    |    |    |    |    +--- :app:processVariant_aDebugResources *
+|    |    |    |    |    \--- :variants:variant_a:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug *
+|    |    |    |    \--- :app:compileVariant_aDebugNdk
+|    |    |    |         \--- :app:preVariant_aDebugBuild *
+|    |    |    \--- :app:packageVariant_aDebug
+|    |    |         +--- :app:compileVariant_aDebugJavaWithJavac *
+|    |    |         +--- :app:mainApkListPersistenceVariant_aDebug *
+|    |    |         +--- :app:mergeVariant_aDebugAssets
+|    |    |         |    +--- :app:compileVariant_aDebugShaders
+|    |    |         |    |    \--- :app:mergeVariant_aDebugShaders
+|    |    |         |    +--- :app:generateVariant_aDebugAssets
+|    |    |         |    |    \--- :app:compileVariant_aDebugShaders *
+|    |    |         |    \--- :variants:variant_a:packageDebugAssets
+|    |    |         |         +--- :variants:variant_a:compileDebugShaders
+|    |    |         |         |    \--- :variants:variant_a:mergeDebugShaders
+|    |    |         |         \--- :variants:variant_a:generateDebugAssets
+|    |    |         |              \--- :variants:variant_a:compileDebugShaders *
+|    |    |         +--- :app:processVariant_aDebugManifest *
+|    |    |         +--- :app:processVariant_aDebugResources *
+|    |    |         +--- :app:transformDexArchiveWithDexMergerForVariant_aDebug
+|    |    |         |    +--- :app:transformClassesWithDexBuilderForVariant_aDebug
+|    |    |         |    |    +--- :app:compileVariant_aDebugJavaWithJavac *
+|    |    |         |    |    +--- :app:compileVariant_aDebugKotlin *
+|    |    |         |    |    \--- :variants:variant_a:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug *
+|    |    |         |    \--- :app:transformDexArchiveWithExternalLibsDexMergerForVariant_aDebug
+|    |    |         |         \--- :app:transformClassesWithDexBuilderForVariant_aDebug *
+|    |    |         +--- :app:transformNativeLibsWithStripDebugSymbolForVariant_aDebug
+|    |    |         |    \--- :app:transformNativeLibsWithMergeJniLibsForVariant_aDebug
+|    |    |         |         +--- :app:compileVariant_aDebugNdk *
+|    |    |         |         +--- :app:mergeVariant_aDebugJniLibFolders
+|    |    |         |         |    \--- :app:generateVariant_aDebugAssets *
+|    |    |         |         +--- :variants:variant_a:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug *
+|    |    |         |         \--- :variants:variant_a:transformNativeLibsWithIntermediateJniLibsForDebug
+|    |    |         |              \--- :variants:variant_a:transformNativeLibsWithStripDebugSymbolForDebug
+|    |    |         |                   \--- :variants:variant_a:transformNativeLibsWithMergeJniLibsForDebug
+|    |    |         |                        +--- :variants:variant_a:compileDebugNdk
+|    |    |         |                        |    \--- :variants:variant_a:preDebugBuild *
+|    |    |         |                        \--- :variants:variant_a:mergeDebugJniLibFolders
+|    |    |         |                             \--- :variants:variant_a:generateDebugAssets *
+|    |    |         +--- :app:transformResourcesWithMergeJavaResForVariant_aDebug
+|    |    |         |    +--- :app:checkVariant_aDebugLibraries
+|    |    |         |    +--- :app:compileVariant_aDebugJavaWithJavac *
+|    |    |         |    +--- :app:compileVariant_aDebugKotlin *
+|    |    |         |    +--- :app:processVariant_aDebugJavaRes
+|    |    |         |    |    \--- :app:preVariant_aDebugBuild *
+|    |    |         |    \--- :variants:variant_a:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug *
+|    |    |         \--- :app:validateSigningVariant_aDebug
+|    |    \--- :app:assembleVariant_bDebug
+|    |         +--- :app:compileVariant_bDebugSources
+|    |         |    +--- :app:compileVariant_bDebugJavaWithJavac
+|    |         |    |    +--- :app:compileVariant_bDebugAidl
+|    |         |    |    |    +--- :app:preVariant_bDebugBuild
+|    |         |    |    |    |    +--- :app:checkVariant_bDebugClasspath
+|    |         |    |    |    |    +--- :app:preBuild *
+|    |         |    |    |    |    \--- :variants:variant_a:processDebugManifest *
+|    |         |    |    |    \--- :variants:variant_a:compileDebugAidl *
+|    |         |    |    +--- :app:compileVariant_bDebugKotlin
+|    |         |    |    |    +--- :app:compileVariant_bDebugAidl *
+|    |         |    |    |    +--- :app:compileVariant_bDebugRenderscript
+|    |         |    |    |    |    +--- :app:preVariant_bDebugBuild *
+|    |         |    |    |    |    \--- :variants:variant_a:packageDebugRenderscript *
+|    |         |    |    |    +--- :app:generateVariant_bDebugBuildConfig
+|    |         |    |    |    |    \--- :app:checkVariant_bDebugManifest
+|    |         |    |    |    |         \--- :app:preVariant_bDebugBuild *
+|    |         |    |    |    +--- :app:processVariant_bDebugResources
+|    |         |    |    |    |    +--- :app:mainApkListPersistenceVariant_bDebug
+|    |         |    |    |    |    +--- :app:mergeVariant_bDebugResources
+|    |         |    |    |    |    |    +--- :app:generateVariant_bDebugResources
+|    |         |    |    |    |    |    |    +--- :app:compileVariant_bDebugRenderscript *
+|    |         |    |    |    |    |    |    \--- :app:generateVariant_bDebugResValues
+|    |         |    |    |    |    |    \--- :variants:variant_a:packageDebugResources *
+|    |         |    |    |    |    +--- :app:processVariant_bDebugManifest
+|    |         |    |    |    |    |    +--- :app:checkVariant_bDebugManifest *
+|    |         |    |    |    |    |    +--- :app:createVariant_bDebugCompatibleScreenManifests
+|    |         |    |    |    |    |    +--- :app:mainApkListPersistenceVariant_bDebug *
+|    |         |    |    |    |    |    \--- :variants:variant_a:processDebugManifest *
+|    |         |    |    |    |    +--- :app:splitsDiscoveryTaskVariant_bDebug
+|    |         |    |    |    |    \--- :variants:variant_a:generateDebugRFile *
+|    |         |    |    |    \--- :variants:variant_a:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug *
+|    |         |    |    +--- :app:compileVariant_bDebugRenderscript *
+|    |         |    |    +--- :app:generateVariant_bDebugBuildConfig *
+|    |         |    |    +--- :app:generateVariant_bDebugSources
+|    |         |    |    |    +--- :app:compileVariant_bDebugAidl *
+|    |         |    |    |    +--- :app:compileVariant_bDebugRenderscript *
+|    |         |    |    |    +--- :app:generateVariant_bDebugBuildConfig *
+|    |         |    |    |    +--- :app:prepareLintJar *
+|    |         |    |    |    \--- :app:processVariant_bDebugResources *
+|    |         |    |    +--- :app:javaPreCompileVariant_bDebug
+|    |         |    |    |    +--- :app:compileVariant_bDebugKotlin *
+|    |         |    |    |    +--- :app:preVariant_bDebugBuild *
+|    |         |    |    |    \--- :variants:variant_a:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug *
+|    |         |    |    +--- :app:processVariant_bDebugResources *
+|    |         |    |    \--- :variants:variant_a:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug *
+|    |         |    \--- :app:compileVariant_bDebugNdk
+|    |         |         \--- :app:preVariant_bDebugBuild *
+|    |         \--- :app:packageVariant_bDebug
+|    |              +--- :app:compileVariant_bDebugJavaWithJavac *
+|    |              +--- :app:mainApkListPersistenceVariant_bDebug *
+|    |              +--- :app:mergeVariant_bDebugAssets
+|    |              |    +--- :app:compileVariant_bDebugShaders
+|    |              |    |    \--- :app:mergeVariant_bDebugShaders
+|    |              |    +--- :app:generateVariant_bDebugAssets
+|    |              |    |    \--- :app:compileVariant_bDebugShaders *
+|    |              |    \--- :variants:variant_a:packageDebugAssets *
+|    |              +--- :app:processVariant_bDebugManifest *
+|    |              +--- :app:processVariant_bDebugResources *
+|    |              +--- :app:transformDexArchiveWithDexMergerForVariant_bDebug
+|    |              |    +--- :app:transformClassesWithDexBuilderForVariant_bDebug
+|    |              |    |    +--- :app:compileVariant_bDebugJavaWithJavac *
+|    |              |    |    +--- :app:compileVariant_bDebugKotlin *
+|    |              |    |    \--- :variants:variant_a:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug *
+|    |              |    \--- :app:transformDexArchiveWithExternalLibsDexMergerForVariant_bDebug
+|    |              |         \--- :app:transformClassesWithDexBuilderForVariant_bDebug *
+|    |              +--- :app:transformNativeLibsWithStripDebugSymbolForVariant_bDebug
+|    |              |    \--- :app:transformNativeLibsWithMergeJniLibsForVariant_bDebug
+|    |              |         +--- :app:compileVariant_bDebugNdk *
+|    |              |         +--- :app:mergeVariant_bDebugJniLibFolders
+|    |              |         |    \--- :app:generateVariant_bDebugAssets *
+|    |              |         +--- :variants:variant_a:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug *
+|    |              |         \--- :variants:variant_a:transformNativeLibsWithIntermediateJniLibsForDebug *
+|    |              +--- :app:transformResourcesWithMergeJavaResForVariant_bDebug
+|    |              |    +--- :app:checkVariant_bDebugLibraries
+|    |              |    +--- :app:compileVariant_bDebugJavaWithJavac *
+|    |              |    +--- :app:compileVariant_bDebugKotlin *
+|    |              |    +--- :app:processVariant_bDebugJavaRes
+|    |              |    |    \--- :app:preVariant_bDebugBuild *
+|    |              |    \--- :variants:variant_a:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug *
+|    |              \--- :app:validateSigningVariant_bDebug
+|    \--- :app:assembleRelease
+|         +--- :app:assembleVariant_aRelease
+|         |    +--- :app:compileVariant_aReleaseSources
+|         |    |    +--- :app:compileVariant_aReleaseJavaWithJavac
+|         |    |    |    +--- :app:compileVariant_aReleaseAidl
+|         |    |    |    |    +--- :app:preVariant_aReleaseBuild
+|         |    |    |    |    |    +--- :app:checkVariant_aReleaseClasspath
+|         |    |    |    |    |    +--- :app:preBuild *
+|         |    |    |    |    |    \--- :variants:variant_a:processReleaseManifest
+|         |    |    |    |    |         \--- :variants:variant_a:checkReleaseManifest
+|         |    |    |    |    |              \--- :variants:variant_a:preReleaseBuild
+|         |    |    |    |    |                   \--- :variants:variant_a:preBuild *
+|         |    |    |    |    \--- :variants:variant_a:compileReleaseAidl
+|         |    |    |    |         \--- :variants:variant_a:preReleaseBuild *
+|         |    |    |    +--- :app:compileVariant_aReleaseKotlin
+|         |    |    |    |    +--- :app:compileVariant_aReleaseAidl *
+|         |    |    |    |    +--- :app:compileVariant_aReleaseRenderscript
+|         |    |    |    |    |    +--- :app:preVariant_aReleaseBuild *
+|         |    |    |    |    |    \--- :variants:variant_a:packageReleaseRenderscript
+|         |    |    |    |    +--- :app:generateVariant_aReleaseBuildConfig
+|         |    |    |    |    |    \--- :app:checkVariant_aReleaseManifest
+|         |    |    |    |    |         \--- :app:preVariant_aReleaseBuild *
+|         |    |    |    |    +--- :app:processVariant_aReleaseResources
+|         |    |    |    |    |    +--- :app:mainApkListPersistenceVariant_aRelease
+|         |    |    |    |    |    +--- :app:mergeVariant_aReleaseResources
+|         |    |    |    |    |    |    +--- :app:generateVariant_aReleaseResources
+|         |    |    |    |    |    |    |    +--- :app:compileVariant_aReleaseRenderscript *
+|         |    |    |    |    |    |    |    \--- :app:generateVariant_aReleaseResValues
+|         |    |    |    |    |    |    \--- :variants:variant_a:packageReleaseResources
+|         |    |    |    |    |    |         \--- :variants:variant_a:generateReleaseResources
+|         |    |    |    |    |    |              +--- :variants:variant_a:compileReleaseRenderscript
+|         |    |    |    |    |    |              |    \--- :variants:variant_a:preReleaseBuild *
+|         |    |    |    |    |    |              \--- :variants:variant_a:generateReleaseResValues
+|         |    |    |    |    |    +--- :app:processVariant_aReleaseManifest
+|         |    |    |    |    |    |    +--- :app:checkVariant_aReleaseManifest *
+|         |    |    |    |    |    |    +--- :app:createVariant_aReleaseCompatibleScreenManifests
+|         |    |    |    |    |    |    +--- :app:mainApkListPersistenceVariant_aRelease *
+|         |    |    |    |    |    |    \--- :variants:variant_a:processReleaseManifest *
+|         |    |    |    |    |    +--- :app:splitsDiscoveryTaskVariant_aRelease
+|         |    |    |    |    |    \--- :variants:variant_a:generateReleaseRFile
+|         |    |    |    |    |         +--- :variants:variant_a:packageReleaseResources *
+|         |    |    |    |    |         \--- :variants:variant_a:processReleaseManifest *
+|         |    |    |    |    \--- :variants:variant_a:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+|         |    |    |    |         +--- :variants:variant_a:compileReleaseJavaWithJavac
+|         |    |    |    |         |    +--- :variants:variant_a:compileReleaseAidl *
+|         |    |    |    |         |    +--- :variants:variant_a:compileReleaseRenderscript *
+|         |    |    |    |         |    +--- :variants:variant_a:generateReleaseBuildConfig
+|         |    |    |    |         |    |    \--- :variants:variant_a:checkReleaseManifest *
+|         |    |    |    |         |    +--- :variants:variant_a:generateReleaseRFile *
+|         |    |    |    |         |    +--- :variants:variant_a:generateReleaseSources
+|         |    |    |    |         |    |    +--- :variants:variant_a:compileReleaseAidl *
+|         |    |    |    |         |    |    +--- :variants:variant_a:compileReleaseRenderscript *
+|         |    |    |    |         |    |    +--- :variants:variant_a:generateReleaseBuildConfig *
+|         |    |    |    |         |    |    +--- :variants:variant_a:generateReleaseRFile *
+|         |    |    |    |         |    |    \--- :variants:variant_a:prepareLintJar *
+|         |    |    |    |         |    \--- :variants:variant_a:javaPreCompileRelease
+|         |    |    |    |         |         \--- :variants:variant_a:preReleaseBuild *
+|         |    |    |    |         \--- :variants:variant_a:processReleaseJavaRes
+|         |    |    |    |              \--- :variants:variant_a:preReleaseBuild *
+|         |    |    |    +--- :app:compileVariant_aReleaseRenderscript *
+|         |    |    |    +--- :app:generateVariant_aReleaseBuildConfig *
+|         |    |    |    +--- :app:generateVariant_aReleaseSources
+|         |    |    |    |    +--- :app:compileVariant_aReleaseAidl *
+|         |    |    |    |    +--- :app:compileVariant_aReleaseRenderscript *
+|         |    |    |    |    +--- :app:generateVariant_aReleaseBuildConfig *
+|         |    |    |    |    +--- :app:prepareLintJar *
+|         |    |    |    |    \--- :app:processVariant_aReleaseResources *
+|         |    |    |    +--- :app:javaPreCompileVariant_aRelease
+|         |    |    |    |    +--- :app:compileVariant_aReleaseKotlin *
+|         |    |    |    |    +--- :app:preVariant_aReleaseBuild *
+|         |    |    |    |    \--- :variants:variant_a:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease *
+|         |    |    |    +--- :app:processVariant_aReleaseResources *
+|         |    |    |    \--- :variants:variant_a:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease *
+|         |    |    \--- :app:compileVariant_aReleaseNdk
+|         |    |         \--- :app:preVariant_aReleaseBuild *
+|         |    +--- :app:lintVitalVariant_aRelease
+|         |    |    +--- :app:compileVariant_aReleaseJavaWithJavac *
+|         |    |    +--- :app:compileVariant_aReleaseKotlin *
+|         |    |    +--- :app:prepareLintJar *
+|         |    |    +--- :app:processVariant_aReleaseManifest *
+|         |    |    \--- :variants:variant_a:prepareLintJar *
+|         |    \--- :app:packageVariant_aRelease
+|         |         +--- :app:compileVariant_aReleaseJavaWithJavac *
+|         |         +--- :app:mainApkListPersistenceVariant_aRelease *
+|         |         +--- :app:mergeVariant_aReleaseAssets
+|         |         |    +--- :app:compileVariant_aReleaseShaders
+|         |         |    |    \--- :app:mergeVariant_aReleaseShaders
+|         |         |    +--- :app:generateVariant_aReleaseAssets
+|         |         |    |    \--- :app:compileVariant_aReleaseShaders *
+|         |         |    \--- :variants:variant_a:packageReleaseAssets
+|         |         |         +--- :variants:variant_a:compileReleaseShaders
+|         |         |         |    \--- :variants:variant_a:mergeReleaseShaders
+|         |         |         \--- :variants:variant_a:generateReleaseAssets
+|         |         |              \--- :variants:variant_a:compileReleaseShaders *
+|         |         +--- :app:processVariant_aReleaseManifest *
+|         |         +--- :app:processVariant_aReleaseResources *
+|         |         +--- :app:transformDexArchiveWithDexMergerForVariant_aRelease
+|         |         |    +--- :app:transformClassesWithDexBuilderForVariant_aRelease
+|         |         |    |    +--- :app:compileVariant_aReleaseJavaWithJavac *
+|         |         |    |    +--- :app:compileVariant_aReleaseKotlin *
+|         |         |    |    \--- :variants:variant_a:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease *
+|         |         |    \--- :app:transformDexArchiveWithExternalLibsDexMergerForVariant_aRelease
+|         |         |         \--- :app:transformClassesWithDexBuilderForVariant_aRelease *
+|         |         +--- :app:transformNativeLibsWithStripDebugSymbolForVariant_aRelease
+|         |         |    \--- :app:transformNativeLibsWithMergeJniLibsForVariant_aRelease
+|         |         |         +--- :app:compileVariant_aReleaseNdk *
+|         |         |         +--- :app:mergeVariant_aReleaseJniLibFolders
+|         |         |         |    \--- :app:generateVariant_aReleaseAssets *
+|         |         |         +--- :variants:variant_a:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease *
+|         |         |         \--- :variants:variant_a:transformNativeLibsWithIntermediateJniLibsForRelease
+|         |         |              \--- :variants:variant_a:transformNativeLibsWithStripDebugSymbolForRelease
+|         |         |                   \--- :variants:variant_a:transformNativeLibsWithMergeJniLibsForRelease
+|         |         |                        +--- :variants:variant_a:compileReleaseNdk
+|         |         |                        |    \--- :variants:variant_a:preReleaseBuild *
+|         |         |                        \--- :variants:variant_a:mergeReleaseJniLibFolders
+|         |         |                             \--- :variants:variant_a:generateReleaseAssets *
+|         |         \--- :app:transformResourcesWithMergeJavaResForVariant_aRelease
+|         |              +--- :app:checkVariant_aReleaseLibraries
+|         |              +--- :app:compileVariant_aReleaseJavaWithJavac *
+|         |              +--- :app:compileVariant_aReleaseKotlin *
+|         |              +--- :app:processVariant_aReleaseJavaRes
+|         |              |    \--- :app:preVariant_aReleaseBuild *
+|         |              \--- :variants:variant_a:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease *
+|         \--- :app:assembleVariant_bRelease
+|              +--- :app:compileVariant_bReleaseSources
+|              |    +--- :app:compileVariant_bReleaseJavaWithJavac
+|              |    |    +--- :app:compileVariant_bReleaseAidl
+|              |    |    |    +--- :app:preVariant_bReleaseBuild
+|              |    |    |    |    +--- :app:checkVariant_bReleaseClasspath
+|              |    |    |    |    +--- :app:preBuild *
+|              |    |    |    |    \--- :variants:variant_a:processReleaseManifest *
+|              |    |    |    \--- :variants:variant_a:compileReleaseAidl *
+|              |    |    +--- :app:compileVariant_bReleaseKotlin
+|              |    |    |    +--- :app:compileVariant_bReleaseAidl *
+|              |    |    |    +--- :app:compileVariant_bReleaseRenderscript
+|              |    |    |    |    +--- :app:preVariant_bReleaseBuild *
+|              |    |    |    |    \--- :variants:variant_a:packageReleaseRenderscript *
+|              |    |    |    +--- :app:generateVariant_bReleaseBuildConfig
+|              |    |    |    |    \--- :app:checkVariant_bReleaseManifest
+|              |    |    |    |         \--- :app:preVariant_bReleaseBuild *
+|              |    |    |    +--- :app:processVariant_bReleaseResources
+|              |    |    |    |    +--- :app:mainApkListPersistenceVariant_bRelease
+|              |    |    |    |    +--- :app:mergeVariant_bReleaseResources
+|              |    |    |    |    |    +--- :app:generateVariant_bReleaseResources
+|              |    |    |    |    |    |    +--- :app:compileVariant_bReleaseRenderscript *
+|              |    |    |    |    |    |    \--- :app:generateVariant_bReleaseResValues
+|              |    |    |    |    |    \--- :variants:variant_a:packageReleaseResources *
+|              |    |    |    |    +--- :app:processVariant_bReleaseManifest
+|              |    |    |    |    |    +--- :app:checkVariant_bReleaseManifest *
+|              |    |    |    |    |    +--- :app:createVariant_bReleaseCompatibleScreenManifests
+|              |    |    |    |    |    +--- :app:mainApkListPersistenceVariant_bRelease *
+|              |    |    |    |    |    \--- :variants:variant_a:processReleaseManifest *
+|              |    |    |    |    +--- :app:splitsDiscoveryTaskVariant_bRelease
+|              |    |    |    |    \--- :variants:variant_a:generateReleaseRFile *
+|              |    |    |    \--- :variants:variant_a:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease *
+|              |    |    +--- :app:compileVariant_bReleaseRenderscript *
+|              |    |    +--- :app:generateVariant_bReleaseBuildConfig *
+|              |    |    +--- :app:generateVariant_bReleaseSources
+|              |    |    |    +--- :app:compileVariant_bReleaseAidl *
+|              |    |    |    +--- :app:compileVariant_bReleaseRenderscript *
+|              |    |    |    +--- :app:generateVariant_bReleaseBuildConfig *
+|              |    |    |    +--- :app:prepareLintJar *
+|              |    |    |    \--- :app:processVariant_bReleaseResources *
+|              |    |    +--- :app:javaPreCompileVariant_bRelease
+|              |    |    |    +--- :app:compileVariant_bReleaseKotlin *
+|              |    |    |    +--- :app:preVariant_bReleaseBuild *
+|              |    |    |    \--- :variants:variant_a:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease *
+|              |    |    +--- :app:processVariant_bReleaseResources *
+|              |    |    \--- :variants:variant_a:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease *
+|              |    \--- :app:compileVariant_bReleaseNdk
+|              |         \--- :app:preVariant_bReleaseBuild *
+|              +--- :app:lintVitalVariant_bRelease
+|              |    +--- :app:compileVariant_bReleaseJavaWithJavac *
+|              |    +--- :app:compileVariant_bReleaseKotlin *
+|              |    +--- :app:prepareLintJar *
+|              |    +--- :app:processVariant_bReleaseManifest *
+|              |    \--- :variants:variant_a:prepareLintJar *
+|              \--- :app:packageVariant_bRelease
+|                   +--- :app:compileVariant_bReleaseJavaWithJavac *
+|                   +--- :app:mainApkListPersistenceVariant_bRelease *
+|                   +--- :app:mergeVariant_bReleaseAssets
+|                   |    +--- :app:compileVariant_bReleaseShaders
+|                   |    |    \--- :app:mergeVariant_bReleaseShaders
+|                   |    +--- :app:generateVariant_bReleaseAssets
+|                   |    |    \--- :app:compileVariant_bReleaseShaders *
+|                   |    \--- :variants:variant_a:packageReleaseAssets *
+|                   +--- :app:processVariant_bReleaseManifest *
+|                   +--- :app:processVariant_bReleaseResources *
+|                   +--- :app:transformDexArchiveWithDexMergerForVariant_bRelease
+|                   |    +--- :app:transformClassesWithDexBuilderForVariant_bRelease
+|                   |    |    +--- :app:compileVariant_bReleaseJavaWithJavac *
+|                   |    |    +--- :app:compileVariant_bReleaseKotlin *
+|                   |    |    \--- :variants:variant_a:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease *
+|                   |    \--- :app:transformDexArchiveWithExternalLibsDexMergerForVariant_bRelease
+|                   |         \--- :app:transformClassesWithDexBuilderForVariant_bRelease *
+|                   +--- :app:transformNativeLibsWithStripDebugSymbolForVariant_bRelease
+|                   |    \--- :app:transformNativeLibsWithMergeJniLibsForVariant_bRelease
+|                   |         +--- :app:compileVariant_bReleaseNdk *
+|                   |         +--- :app:mergeVariant_bReleaseJniLibFolders
+|                   |         |    \--- :app:generateVariant_bReleaseAssets *
+|                   |         +--- :variants:variant_a:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease *
+|                   |         \--- :variants:variant_a:transformNativeLibsWithIntermediateJniLibsForRelease *
+|                   \--- :app:transformResourcesWithMergeJavaResForVariant_bRelease
+|                        +--- :app:checkVariant_bReleaseLibraries
+|                        +--- :app:compileVariant_bReleaseJavaWithJavac *
+|                        +--- :app:compileVariant_bReleaseKotlin *
+|                        +--- :app:processVariant_bReleaseJavaRes
+|                        |    \--- :app:preVariant_bReleaseBuild *
+|                        \--- :variants:variant_a:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease *
++--- :app:check
+|    +--- :app:lint
+|    |    +--- :app:compileVariant_aDebugJavaWithJavac *
+|    |    +--- :app:compileVariant_aDebugKotlin *
+|    |    +--- :app:compileVariant_aReleaseJavaWithJavac *
+|    |    +--- :app:compileVariant_aReleaseKotlin *
+|    |    +--- :app:compileVariant_bDebugJavaWithJavac *
+|    |    +--- :app:compileVariant_bDebugKotlin *
+|    |    +--- :app:compileVariant_bReleaseJavaWithJavac *
+|    |    +--- :app:compileVariant_bReleaseKotlin *
+|    |    +--- :app:prepareLintJar *
+|    |    +--- :app:processVariant_aDebugManifest *
+|    |    +--- :app:processVariant_aReleaseManifest *
+|    |    +--- :app:processVariant_bDebugManifest *
+|    |    +--- :app:processVariant_bReleaseManifest *
+|    |    \--- :variants:variant_a:prepareLintJar *
+|    \--- :app:test
+|         +--- :app:testVariant_aDebugUnitTest
+|         |    +--- :app:compileVariant_aDebugJavaWithJavac *
+|         |    +--- :app:compileVariant_aDebugKotlin *
+|         |    +--- :app:compileVariant_aDebugUnitTestJavaWithJavac
+|         |    |    +--- :app:compileVariant_aDebugJavaWithJavac *
+|         |    |    +--- :app:compileVariant_aDebugKotlin *
+|         |    |    +--- :app:compileVariant_aDebugUnitTestKotlin
+|         |    |    |    +--- :app:compileVariant_aDebugJavaWithJavac *
+|         |    |    |    +--- :app:compileVariant_aDebugKotlin *
+|         |    |    |    \--- :variants:variant_a:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug *
+|         |    |    +--- :app:generateVariant_aDebugUnitTestSources
+|         |    |    |    \--- :app:prepareLintJar *
+|         |    |    +--- :app:javaPreCompileVariant_aDebugUnitTest
+|         |    |    |    +--- :app:compileVariant_aDebugJavaWithJavac *
+|         |    |    |    +--- :app:compileVariant_aDebugKotlin *
+|         |    |    |    +--- :app:compileVariant_aDebugUnitTestKotlin *
+|         |    |    |    +--- :app:preVariant_aDebugUnitTestBuild
+|         |    |    |    |    \--- :app:preBuild *
+|         |    |    |    \--- :variants:variant_a:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug *
+|         |    |    \--- :variants:variant_a:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug *
+|         |    +--- :app:compileVariant_aDebugUnitTestKotlin *
+|         |    +--- :app:processVariant_aDebugJavaRes *
+|         |    +--- :app:processVariant_aDebugManifest *
+|         |    +--- :app:processVariant_aDebugUnitTestJavaRes
+|         |    |    \--- :app:preVariant_aDebugUnitTestBuild *
+|         |    \--- :variants:variant_a:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug *
+|         +--- :app:testVariant_aReleaseUnitTest
+|         |    +--- :app:compileVariant_aReleaseJavaWithJavac *
+|         |    +--- :app:compileVariant_aReleaseKotlin *
+|         |    +--- :app:compileVariant_aReleaseUnitTestJavaWithJavac
+|         |    |    +--- :app:compileVariant_aReleaseJavaWithJavac *
+|         |    |    +--- :app:compileVariant_aReleaseKotlin *
+|         |    |    +--- :app:compileVariant_aReleaseUnitTestKotlin
+|         |    |    |    +--- :app:compileVariant_aReleaseJavaWithJavac *
+|         |    |    |    +--- :app:compileVariant_aReleaseKotlin *
+|         |    |    |    \--- :variants:variant_a:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease *
+|         |    |    +--- :app:generateVariant_aReleaseUnitTestSources
+|         |    |    |    \--- :app:prepareLintJar *
+|         |    |    +--- :app:javaPreCompileVariant_aReleaseUnitTest
+|         |    |    |    +--- :app:compileVariant_aReleaseJavaWithJavac *
+|         |    |    |    +--- :app:compileVariant_aReleaseKotlin *
+|         |    |    |    +--- :app:compileVariant_aReleaseUnitTestKotlin *
+|         |    |    |    +--- :app:preVariant_aReleaseUnitTestBuild
+|         |    |    |    |    \--- :app:preBuild *
+|         |    |    |    \--- :variants:variant_a:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease *
+|         |    |    \--- :variants:variant_a:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease *
+|         |    +--- :app:compileVariant_aReleaseUnitTestKotlin *
+|         |    +--- :app:processVariant_aReleaseJavaRes *
+|         |    +--- :app:processVariant_aReleaseManifest *
+|         |    +--- :app:processVariant_aReleaseUnitTestJavaRes
+|         |    |    \--- :app:preVariant_aReleaseUnitTestBuild *
+|         |    \--- :variants:variant_a:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease *
+|         +--- :app:testVariant_bDebugUnitTest
+|         |    +--- :app:compileVariant_bDebugJavaWithJavac *
+|         |    +--- :app:compileVariant_bDebugKotlin *
+|         |    +--- :app:compileVariant_bDebugUnitTestJavaWithJavac
+|         |    |    +--- :app:compileVariant_bDebugJavaWithJavac *
+|         |    |    +--- :app:compileVariant_bDebugKotlin *
+|         |    |    +--- :app:compileVariant_bDebugUnitTestKotlin
+|         |    |    |    +--- :app:compileVariant_bDebugJavaWithJavac *
+|         |    |    |    +--- :app:compileVariant_bDebugKotlin *
+|         |    |    |    \--- :variants:variant_a:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug *
+|         |    |    +--- :app:generateVariant_bDebugUnitTestSources
+|         |    |    |    \--- :app:prepareLintJar *
+|         |    |    +--- :app:javaPreCompileVariant_bDebugUnitTest
+|         |    |    |    +--- :app:compileVariant_bDebugJavaWithJavac *
+|         |    |    |    +--- :app:compileVariant_bDebugKotlin *
+|         |    |    |    +--- :app:compileVariant_bDebugUnitTestKotlin *
+|         |    |    |    +--- :app:preVariant_bDebugUnitTestBuild
+|         |    |    |    |    \--- :app:preBuild *
+|         |    |    |    \--- :variants:variant_a:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug *
+|         |    |    \--- :variants:variant_a:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug *
+|         |    +--- :app:compileVariant_bDebugUnitTestKotlin *
+|         |    +--- :app:processVariant_bDebugJavaRes *
+|         |    +--- :app:processVariant_bDebugManifest *
+|         |    +--- :app:processVariant_bDebugUnitTestJavaRes
+|         |    |    \--- :app:preVariant_bDebugUnitTestBuild *
+|         |    \--- :variants:variant_a:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug *
+|         \--- :app:testVariant_bReleaseUnitTest
+|              +--- :app:compileVariant_bReleaseJavaWithJavac *
+|              +--- :app:compileVariant_bReleaseKotlin *
+|              +--- :app:compileVariant_bReleaseUnitTestJavaWithJavac
+|              |    +--- :app:compileVariant_bReleaseJavaWithJavac *
+|              |    +--- :app:compileVariant_bReleaseKotlin *
+|              |    +--- :app:compileVariant_bReleaseUnitTestKotlin
+|              |    |    +--- :app:compileVariant_bReleaseJavaWithJavac *
+|              |    |    +--- :app:compileVariant_bReleaseKotlin *
+|              |    |    \--- :variants:variant_a:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease *
+|              |    +--- :app:generateVariant_bReleaseUnitTestSources
+|              |    |    \--- :app:prepareLintJar *
+|              |    +--- :app:javaPreCompileVariant_bReleaseUnitTest
+|              |    |    +--- :app:compileVariant_bReleaseJavaWithJavac *
+|              |    |    +--- :app:compileVariant_bReleaseKotlin *
+|              |    |    +--- :app:compileVariant_bReleaseUnitTestKotlin *
+|              |    |    +--- :app:preVariant_bReleaseUnitTestBuild
+|              |    |    |    \--- :app:preBuild *
+|              |    |    \--- :variants:variant_a:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease *
+|              |    \--- :variants:variant_a:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease *
+|              +--- :app:compileVariant_bReleaseUnitTestKotlin *
+|              +--- :app:processVariant_bReleaseJavaRes *
+|              +--- :app:processVariant_bReleaseManifest *
+|              +--- :app:processVariant_bReleaseUnitTestJavaRes
+|              |    \--- :app:preVariant_bReleaseUnitTestBuild *
+|              \--- :variants:variant_a:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease *
+\--- :app:cleanTemp
+     \--- :app:assemble *
+
+
+(*) - subtree omitted (printed previously)
+
+To see task dependency tree for a specific task, run gradle <project-path>:<task> <project-path>:taskTree [--no-repeat]
+Executions of all tasks except for taskTree will be skipped. They will be used for building the task graph only.
+
+Add --no-repeat to prevent printing a subtree of the same task more than once.
+
+For example, try running gradle :app:build :app:taskTree
+:sublib:taskTree
+
+------------------------------------------------------------
+Project :sublib
+------------------------------------------------------------
+
+:sublib:build
++--- :sublib:assemble
+|    +--- :sublib:assembleDebug
+|    |    +--- :sublib:bundleDebugAar
+|    |    |    +--- :sublib:compileDebugAidl
+|    |    |    |    \--- :sublib:preDebugBuild
+|    |    |    |         \--- :sublib:preBuild
+|    |    |    +--- :sublib:extractDebugAnnotations
+|    |    |    |    +--- :sublib:compileDebugAidl *
+|    |    |    |    +--- :sublib:compileDebugJavaWithJavac
+|    |    |    |    |    +--- :sublib:compileDebugAidl *
+|    |    |    |    |    +--- :sublib:compileDebugRenderscript
+|    |    |    |    |    |    \--- :sublib:preDebugBuild *
+|    |    |    |    |    +--- :sublib:generateDebugBuildConfig
+|    |    |    |    |    |    \--- :sublib:checkDebugManifest
+|    |    |    |    |    |         \--- :sublib:preDebugBuild *
+|    |    |    |    |    +--- :sublib:generateDebugRFile
+|    |    |    |    |    |    +--- :sublib:packageDebugResources
+|    |    |    |    |    |    |    \--- :sublib:generateDebugResources
+|    |    |    |    |    |    |         +--- :sublib:compileDebugRenderscript *
+|    |    |    |    |    |    |         \--- :sublib:generateDebugResValues
+|    |    |    |    |    |    \--- :sublib:processDebugManifest
+|    |    |    |    |    |         \--- :sublib:checkDebugManifest *
+|    |    |    |    |    +--- :sublib:generateDebugSources
+|    |    |    |    |    |    +--- :sublib:compileDebugAidl *
+|    |    |    |    |    |    +--- :sublib:compileDebugRenderscript *
+|    |    |    |    |    |    +--- :sublib:generateDebugBuildConfig *
+|    |    |    |    |    |    +--- :sublib:generateDebugRFile *
+|    |    |    |    |    |    \--- :sublib:prepareLintJar
+|    |    |    |    |    \--- :sublib:javaPreCompileDebug
+|    |    |    |    |         \--- :sublib:preDebugBuild *
+|    |    |    |    +--- :sublib:compileDebugRenderscript *
+|    |    |    |    +--- :sublib:generateDebugBuildConfig *
+|    |    |    |    \--- :sublib:generateDebugRFile *
+|    |    |    +--- :sublib:generateDebugRFile *
+|    |    |    +--- :sublib:mergeDebugConsumerProguardFiles
+|    |    |    +--- :sublib:packageDebugAssets
+|    |    |    |    +--- :sublib:compileDebugShaders
+|    |    |    |    |    \--- :sublib:mergeDebugShaders
+|    |    |    |    \--- :sublib:generateDebugAssets
+|    |    |    |         \--- :sublib:compileDebugShaders *
+|    |    |    +--- :sublib:packageDebugRenderscript
+|    |    |    +--- :sublib:packageDebugResources *
+|    |    |    +--- :sublib:prepareLintJar *
+|    |    |    +--- :sublib:processDebugManifest *
+|    |    |    +--- :sublib:transformClassesAndResourcesWithSyncLibJarsForDebug
+|    |    |    |    +--- :sublib:compileDebugJavaWithJavac *
+|    |    |    |    +--- :sublib:extractDebugAnnotations *
+|    |    |    |    \--- :sublib:transformResourcesWithMergeJavaResForDebug
+|    |    |    |         +--- :sublib:compileDebugJavaWithJavac *
+|    |    |    |         \--- :sublib:processDebugJavaRes
+|    |    |    |              \--- :sublib:preDebugBuild *
+|    |    |    \--- :sublib:transformNativeLibsWithSyncJniLibsForDebug
+|    |    |         \--- :sublib:transformNativeLibsWithStripDebugSymbolForDebug
+|    |    |              \--- :sublib:transformNativeLibsWithMergeJniLibsForDebug
+|    |    |                   +--- :sublib:compileDebugNdk
+|    |    |                   |    \--- :sublib:preDebugBuild *
+|    |    |                   \--- :sublib:mergeDebugJniLibFolders
+|    |    |                        \--- :sublib:generateDebugAssets *
+|    |    \--- :sublib:compileDebugSources
+|    |         +--- :sublib:compileDebugJavaWithJavac *
+|    |         \--- :sublib:compileDebugNdk *
+|    +--- :sublib:assembleRelease
+|    |    +--- :sublib:bundleReleaseAar
+|    |    |    +--- :sublib:compileReleaseAidl
+|    |    |    |    \--- :sublib:preReleaseBuild
+|    |    |    |         \--- :sublib:preBuild *
+|    |    |    +--- :sublib:extractReleaseAnnotations
+|    |    |    |    +--- :sublib:compileReleaseAidl *
+|    |    |    |    +--- :sublib:compileReleaseJavaWithJavac
+|    |    |    |    |    +--- :sublib:compileReleaseAidl *
+|    |    |    |    |    +--- :sublib:compileReleaseRenderscript
+|    |    |    |    |    |    \--- :sublib:preReleaseBuild *
+|    |    |    |    |    +--- :sublib:generateReleaseBuildConfig
+|    |    |    |    |    |    \--- :sublib:checkReleaseManifest
+|    |    |    |    |    |         \--- :sublib:preReleaseBuild *
+|    |    |    |    |    +--- :sublib:generateReleaseRFile
+|    |    |    |    |    |    +--- :sublib:packageReleaseResources
+|    |    |    |    |    |    |    \--- :sublib:generateReleaseResources
+|    |    |    |    |    |    |         +--- :sublib:compileReleaseRenderscript *
+|    |    |    |    |    |    |         \--- :sublib:generateReleaseResValues
+|    |    |    |    |    |    \--- :sublib:processReleaseManifest
+|    |    |    |    |    |         \--- :sublib:checkReleaseManifest *
+|    |    |    |    |    +--- :sublib:generateReleaseSources
+|    |    |    |    |    |    +--- :sublib:compileReleaseAidl *
+|    |    |    |    |    |    +--- :sublib:compileReleaseRenderscript *
+|    |    |    |    |    |    +--- :sublib:generateReleaseBuildConfig *
+|    |    |    |    |    |    +--- :sublib:generateReleaseRFile *
+|    |    |    |    |    |    \--- :sublib:prepareLintJar *
+|    |    |    |    |    \--- :sublib:javaPreCompileRelease
+|    |    |    |    |         \--- :sublib:preReleaseBuild *
+|    |    |    |    +--- :sublib:compileReleaseRenderscript *
+|    |    |    |    +--- :sublib:generateReleaseBuildConfig *
+|    |    |    |    \--- :sublib:generateReleaseRFile *
+|    |    |    +--- :sublib:generateReleaseRFile *
+|    |    |    +--- :sublib:mergeReleaseConsumerProguardFiles
+|    |    |    +--- :sublib:packageReleaseAssets
+|    |    |    |    +--- :sublib:compileReleaseShaders
+|    |    |    |    |    \--- :sublib:mergeReleaseShaders
+|    |    |    |    \--- :sublib:generateReleaseAssets
+|    |    |    |         \--- :sublib:compileReleaseShaders *
+|    |    |    +--- :sublib:packageReleaseRenderscript
+|    |    |    +--- :sublib:packageReleaseResources *
+|    |    |    +--- :sublib:prepareLintJar *
+|    |    |    +--- :sublib:processReleaseManifest *
+|    |    |    +--- :sublib:transformClassesAndResourcesWithSyncLibJarsForRelease
+|    |    |    |    +--- :sublib:compileReleaseJavaWithJavac *
+|    |    |    |    +--- :sublib:extractReleaseAnnotations *
+|    |    |    |    \--- :sublib:transformResourcesWithMergeJavaResForRelease
+|    |    |    |         +--- :sublib:compileReleaseJavaWithJavac *
+|    |    |    |         \--- :sublib:processReleaseJavaRes
+|    |    |    |              \--- :sublib:preReleaseBuild *
+|    |    |    \--- :sublib:transformNativeLibsWithSyncJniLibsForRelease
+|    |    |         \--- :sublib:transformNativeLibsWithStripDebugSymbolForRelease
+|    |    |              \--- :sublib:transformNativeLibsWithMergeJniLibsForRelease
+|    |    |                   +--- :sublib:compileReleaseNdk
+|    |    |                   |    \--- :sublib:preReleaseBuild *
+|    |    |                   \--- :sublib:mergeReleaseJniLibFolders
+|    |    |                        \--- :sublib:generateReleaseAssets *
+|    |    +--- :sublib:compileReleaseSources
+|    |    |    +--- :sublib:compileReleaseJavaWithJavac *
+|    |    |    \--- :sublib:compileReleaseNdk *
+|    |    \--- :sublib:verifyReleaseResources
+|    |         +--- :sublib:mergeReleaseResources
+|    |         |    \--- :sublib:generateReleaseResources *
+|    |         \--- :sublib:processReleaseManifest *
+|    \--- :sublib:bundleReleaseAar *
+\--- :sublib:check
+     +--- :sublib:lint
+     |    +--- :sublib:compileDebugJavaWithJavac *
+     |    +--- :sublib:compileReleaseJavaWithJavac *
+     |    +--- :sublib:prepareLintJar *
+     |    +--- :sublib:processDebugManifest *
+     |    \--- :sublib:processReleaseManifest *
+     \--- :sublib:test
+          +--- :sublib:testDebugUnitTest
+          |    +--- :sublib:compileDebugJavaWithJavac *
+          |    +--- :sublib:compileDebugUnitTestJavaWithJavac
+          |    |    +--- :sublib:compileDebugJavaWithJavac *
+          |    |    +--- :sublib:generateDebugUnitTestSources
+          |    |    |    \--- :sublib:prepareLintJar *
+          |    |    \--- :sublib:javaPreCompileDebugUnitTest
+          |    |         +--- :sublib:compileDebugJavaWithJavac *
+          |    |         \--- :sublib:preDebugUnitTestBuild
+          |    |              \--- :sublib:preBuild *
+          |    +--- :sublib:processDebugManifest *
+          |    +--- :sublib:processDebugUnitTestJavaRes
+          |    |    \--- :sublib:preDebugUnitTestBuild *
+          |    \--- :sublib:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+          |         +--- :sublib:compileDebugJavaWithJavac *
+          |         \--- :sublib:processDebugJavaRes *
+          \--- :sublib:testReleaseUnitTest
+               +--- :sublib:compileReleaseJavaWithJavac *
+               +--- :sublib:compileReleaseUnitTestJavaWithJavac
+               |    +--- :sublib:compileReleaseJavaWithJavac *
+               |    +--- :sublib:generateReleaseUnitTestSources
+               |    |    \--- :sublib:prepareLintJar *
+               |    \--- :sublib:javaPreCompileReleaseUnitTest
+               |         +--- :sublib:compileReleaseJavaWithJavac *
+               |         \--- :sublib:preReleaseUnitTestBuild
+               |              \--- :sublib:preBuild *
+               +--- :sublib:processReleaseManifest *
+               +--- :sublib:processReleaseUnitTestJavaRes
+               |    \--- :sublib:preReleaseUnitTestBuild *
+               \--- :sublib:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+                    +--- :sublib:compileReleaseJavaWithJavac *
+                    \--- :sublib:processReleaseJavaRes *
+
+
+(*) - subtree omitted (printed previously)
+
+To see task dependency tree for a specific task, run gradle <project-path>:<task> <project-path>:taskTree [--no-repeat]
+Executions of all tasks except for taskTree will be skipped. They will be used for building the task graph only.
+
+Add --no-repeat to prevent printing a subtree of the same task more than once.
+
+For example, try running gradle :sublib:build :sublib:taskTree
+:variants:taskTree
+
+------------------------------------------------------------
+Project :variants
+------------------------------------------------------------
+
+
+(*) - subtree omitted (printed previously)
+
+To see task dependency tree for a specific task, run gradle <project-path>:<task> <project-path>:taskTree [--no-repeat]
+Executions of all tasks except for taskTree will be skipped. They will be used for building the task graph only.
+
+Add --no-repeat to prevent printing a subtree of the same task more than once.
+
+For example, try running gradle :variants:variant_a:build :variants:variant_a:taskTree
+:variants:variant_a:taskTree
+
+------------------------------------------------------------
+Project :variants:variant_a
+------------------------------------------------------------
+
+:variants:variant_a:build
++--- :variants:variant_a:assemble
+|    +--- :variants:variant_a:assembleDebug
+|    |    +--- :variants:variant_a:bundleDebugAar
+|    |    |    +--- :variants:variant_a:compileDebugAidl
+|    |    |    |    \--- :variants:variant_a:preDebugBuild
+|    |    |    |         \--- :variants:variant_a:preBuild
+|    |    |    +--- :variants:variant_a:extractDebugAnnotations
+|    |    |    |    +--- :variants:variant_a:compileDebugAidl *
+|    |    |    |    +--- :variants:variant_a:compileDebugJavaWithJavac
+|    |    |    |    |    +--- :variants:variant_a:compileDebugAidl *
+|    |    |    |    |    +--- :variants:variant_a:compileDebugRenderscript
+|    |    |    |    |    |    \--- :variants:variant_a:preDebugBuild *
+|    |    |    |    |    +--- :variants:variant_a:generateDebugBuildConfig
+|    |    |    |    |    |    \--- :variants:variant_a:checkDebugManifest
+|    |    |    |    |    |         \--- :variants:variant_a:preDebugBuild *
+|    |    |    |    |    +--- :variants:variant_a:generateDebugRFile
+|    |    |    |    |    |    +--- :variants:variant_a:packageDebugResources
+|    |    |    |    |    |    |    \--- :variants:variant_a:generateDebugResources
+|    |    |    |    |    |    |         +--- :variants:variant_a:compileDebugRenderscript *
+|    |    |    |    |    |    |         \--- :variants:variant_a:generateDebugResValues
+|    |    |    |    |    |    \--- :variants:variant_a:processDebugManifest
+|    |    |    |    |    |         \--- :variants:variant_a:checkDebugManifest *
+|    |    |    |    |    +--- :variants:variant_a:generateDebugSources
+|    |    |    |    |    |    +--- :variants:variant_a:compileDebugAidl *
+|    |    |    |    |    |    +--- :variants:variant_a:compileDebugRenderscript *
+|    |    |    |    |    |    +--- :variants:variant_a:generateDebugBuildConfig *
+|    |    |    |    |    |    +--- :variants:variant_a:generateDebugRFile *
+|    |    |    |    |    |    \--- :variants:variant_a:prepareLintJar
+|    |    |    |    |    \--- :variants:variant_a:javaPreCompileDebug
+|    |    |    |    |         \--- :variants:variant_a:preDebugBuild *
+|    |    |    |    +--- :variants:variant_a:compileDebugRenderscript *
+|    |    |    |    +--- :variants:variant_a:generateDebugBuildConfig *
+|    |    |    |    \--- :variants:variant_a:generateDebugRFile *
+|    |    |    +--- :variants:variant_a:generateDebugRFile *
+|    |    |    +--- :variants:variant_a:mergeDebugConsumerProguardFiles
+|    |    |    +--- :variants:variant_a:packageDebugAssets
+|    |    |    |    +--- :variants:variant_a:compileDebugShaders
+|    |    |    |    |    \--- :variants:variant_a:mergeDebugShaders
+|    |    |    |    \--- :variants:variant_a:generateDebugAssets
+|    |    |    |         \--- :variants:variant_a:compileDebugShaders *
+|    |    |    +--- :variants:variant_a:packageDebugRenderscript
+|    |    |    +--- :variants:variant_a:packageDebugResources *
+|    |    |    +--- :variants:variant_a:prepareLintJar *
+|    |    |    +--- :variants:variant_a:processDebugManifest *
+|    |    |    +--- :variants:variant_a:transformClassesAndResourcesWithSyncLibJarsForDebug
+|    |    |    |    +--- :variants:variant_a:compileDebugJavaWithJavac *
+|    |    |    |    +--- :variants:variant_a:extractDebugAnnotations *
+|    |    |    |    \--- :variants:variant_a:transformResourcesWithMergeJavaResForDebug
+|    |    |    |         +--- :variants:variant_a:compileDebugJavaWithJavac *
+|    |    |    |         \--- :variants:variant_a:processDebugJavaRes
+|    |    |    |              \--- :variants:variant_a:preDebugBuild *
+|    |    |    \--- :variants:variant_a:transformNativeLibsWithSyncJniLibsForDebug
+|    |    |         \--- :variants:variant_a:transformNativeLibsWithStripDebugSymbolForDebug
+|    |    |              \--- :variants:variant_a:transformNativeLibsWithMergeJniLibsForDebug
+|    |    |                   +--- :variants:variant_a:compileDebugNdk
+|    |    |                   |    \--- :variants:variant_a:preDebugBuild *
+|    |    |                   \--- :variants:variant_a:mergeDebugJniLibFolders
+|    |    |                        \--- :variants:variant_a:generateDebugAssets *
+|    |    \--- :variants:variant_a:compileDebugSources
+|    |         +--- :variants:variant_a:compileDebugJavaWithJavac *
+|    |         \--- :variants:variant_a:compileDebugNdk *
+|    +--- :variants:variant_a:assembleRelease
+|    |    +--- :variants:variant_a:bundleReleaseAar
+|    |    |    +--- :variants:variant_a:compileReleaseAidl
+|    |    |    |    \--- :variants:variant_a:preReleaseBuild
+|    |    |    |         \--- :variants:variant_a:preBuild *
+|    |    |    +--- :variants:variant_a:extractReleaseAnnotations
+|    |    |    |    +--- :variants:variant_a:compileReleaseAidl *
+|    |    |    |    +--- :variants:variant_a:compileReleaseJavaWithJavac
+|    |    |    |    |    +--- :variants:variant_a:compileReleaseAidl *
+|    |    |    |    |    +--- :variants:variant_a:compileReleaseRenderscript
+|    |    |    |    |    |    \--- :variants:variant_a:preReleaseBuild *
+|    |    |    |    |    +--- :variants:variant_a:generateReleaseBuildConfig
+|    |    |    |    |    |    \--- :variants:variant_a:checkReleaseManifest
+|    |    |    |    |    |         \--- :variants:variant_a:preReleaseBuild *
+|    |    |    |    |    +--- :variants:variant_a:generateReleaseRFile
+|    |    |    |    |    |    +--- :variants:variant_a:packageReleaseResources
+|    |    |    |    |    |    |    \--- :variants:variant_a:generateReleaseResources
+|    |    |    |    |    |    |         +--- :variants:variant_a:compileReleaseRenderscript *
+|    |    |    |    |    |    |         \--- :variants:variant_a:generateReleaseResValues
+|    |    |    |    |    |    \--- :variants:variant_a:processReleaseManifest
+|    |    |    |    |    |         \--- :variants:variant_a:checkReleaseManifest *
+|    |    |    |    |    +--- :variants:variant_a:generateReleaseSources
+|    |    |    |    |    |    +--- :variants:variant_a:compileReleaseAidl *
+|    |    |    |    |    |    +--- :variants:variant_a:compileReleaseRenderscript *
+|    |    |    |    |    |    +--- :variants:variant_a:generateReleaseBuildConfig *
+|    |    |    |    |    |    +--- :variants:variant_a:generateReleaseRFile *
+|    |    |    |    |    |    \--- :variants:variant_a:prepareLintJar *
+|    |    |    |    |    \--- :variants:variant_a:javaPreCompileRelease
+|    |    |    |    |         \--- :variants:variant_a:preReleaseBuild *
+|    |    |    |    +--- :variants:variant_a:compileReleaseRenderscript *
+|    |    |    |    +--- :variants:variant_a:generateReleaseBuildConfig *
+|    |    |    |    \--- :variants:variant_a:generateReleaseRFile *
+|    |    |    +--- :variants:variant_a:generateReleaseRFile *
+|    |    |    +--- :variants:variant_a:mergeReleaseConsumerProguardFiles
+|    |    |    +--- :variants:variant_a:packageReleaseAssets
+|    |    |    |    +--- :variants:variant_a:compileReleaseShaders
+|    |    |    |    |    \--- :variants:variant_a:mergeReleaseShaders
+|    |    |    |    \--- :variants:variant_a:generateReleaseAssets
+|    |    |    |         \--- :variants:variant_a:compileReleaseShaders *
+|    |    |    +--- :variants:variant_a:packageReleaseRenderscript
+|    |    |    +--- :variants:variant_a:packageReleaseResources *
+|    |    |    +--- :variants:variant_a:prepareLintJar *
+|    |    |    +--- :variants:variant_a:processReleaseManifest *
+|    |    |    +--- :variants:variant_a:transformClassesAndResourcesWithSyncLibJarsForRelease
+|    |    |    |    +--- :variants:variant_a:compileReleaseJavaWithJavac *
+|    |    |    |    +--- :variants:variant_a:extractReleaseAnnotations *
+|    |    |    |    \--- :variants:variant_a:transformResourcesWithMergeJavaResForRelease
+|    |    |    |         +--- :variants:variant_a:compileReleaseJavaWithJavac *
+|    |    |    |         \--- :variants:variant_a:processReleaseJavaRes
+|    |    |    |              \--- :variants:variant_a:preReleaseBuild *
+|    |    |    \--- :variants:variant_a:transformNativeLibsWithSyncJniLibsForRelease
+|    |    |         \--- :variants:variant_a:transformNativeLibsWithStripDebugSymbolForRelease
+|    |    |              \--- :variants:variant_a:transformNativeLibsWithMergeJniLibsForRelease
+|    |    |                   +--- :variants:variant_a:compileReleaseNdk
+|    |    |                   |    \--- :variants:variant_a:preReleaseBuild *
+|    |    |                   \--- :variants:variant_a:mergeReleaseJniLibFolders
+|    |    |                        \--- :variants:variant_a:generateReleaseAssets *
+|    |    +--- :variants:variant_a:compileReleaseSources
+|    |    |    +--- :variants:variant_a:compileReleaseJavaWithJavac *
+|    |    |    \--- :variants:variant_a:compileReleaseNdk *
+|    |    \--- :variants:variant_a:verifyReleaseResources
+|    |         +--- :variants:variant_a:mergeReleaseResources
+|    |         |    \--- :variants:variant_a:generateReleaseResources *
+|    |         \--- :variants:variant_a:processReleaseManifest *
+|    \--- :variants:variant_a:bundleReleaseAar *
+\--- :variants:variant_a:check
+     +--- :variants:variant_a:lint
+     |    +--- :variants:variant_a:compileDebugJavaWithJavac *
+     |    +--- :variants:variant_a:compileReleaseJavaWithJavac *
+     |    +--- :variants:variant_a:prepareLintJar *
+     |    +--- :variants:variant_a:processDebugManifest *
+     |    \--- :variants:variant_a:processReleaseManifest *
+     \--- :variants:variant_a:test
+          +--- :variants:variant_a:testDebugUnitTest
+          |    +--- :variants:variant_a:compileDebugJavaWithJavac *
+          |    +--- :variants:variant_a:compileDebugUnitTestJavaWithJavac
+          |    |    +--- :variants:variant_a:compileDebugJavaWithJavac *
+          |    |    +--- :variants:variant_a:generateDebugUnitTestSources
+          |    |    |    \--- :variants:variant_a:prepareLintJar *
+          |    |    \--- :variants:variant_a:javaPreCompileDebugUnitTest
+          |    |         +--- :variants:variant_a:compileDebugJavaWithJavac *
+          |    |         \--- :variants:variant_a:preDebugUnitTestBuild
+          |    |              \--- :variants:variant_a:preBuild *
+          |    +--- :variants:variant_a:processDebugManifest *
+          |    +--- :variants:variant_a:processDebugUnitTestJavaRes
+          |    |    \--- :variants:variant_a:preDebugUnitTestBuild *
+          |    \--- :variants:variant_a:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+          |         +--- :variants:variant_a:compileDebugJavaWithJavac *
+          |         \--- :variants:variant_a:processDebugJavaRes *
+          \--- :variants:variant_a:testReleaseUnitTest
+               +--- :variants:variant_a:compileReleaseJavaWithJavac *
+               +--- :variants:variant_a:compileReleaseUnitTestJavaWithJavac
+               |    +--- :variants:variant_a:compileReleaseJavaWithJavac *
+               |    +--- :variants:variant_a:generateReleaseUnitTestSources
+               |    |    \--- :variants:variant_a:prepareLintJar *
+               |    \--- :variants:variant_a:javaPreCompileReleaseUnitTest
+               |         +--- :variants:variant_a:compileReleaseJavaWithJavac *
+               |         \--- :variants:variant_a:preReleaseUnitTestBuild
+               |              \--- :variants:variant_a:preBuild *
+               +--- :variants:variant_a:processReleaseManifest *
+               +--- :variants:variant_a:processReleaseUnitTestJavaRes
+               |    \--- :variants:variant_a:preReleaseUnitTestBuild *
+               \--- :variants:variant_a:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+                    +--- :variants:variant_a:compileReleaseJavaWithJavac *
+                    \--- :variants:variant_a:processReleaseJavaRes *
+
+
+(*) - subtree omitted (printed previously)
+
+To see task dependency tree for a specific task, run gradle <project-path>:<task> <project-path>:taskTree [--no-repeat]
+Executions of all tasks except for taskTree will be skipped. They will be used for building the task graph only.
+
+Add --no-repeat to prevent printing a subtree of the same task more than once.
+
+For example, try running gradle :variants:variant_a:build :variants:variant_a:taskTree
+:variants:variant_b:taskTree
+
+------------------------------------------------------------
+Project :variants:variant_b
+------------------------------------------------------------
+
+:variants:variant_b:build
++--- :variants:variant_b:assemble
+|    +--- :variants:variant_b:assembleDebug
+|    |    +--- :variants:variant_b:bundleDebugAar
+|    |    |    +--- :variants:variant_b:compileDebugAidl
+|    |    |    |    \--- :variants:variant_b:preDebugBuild
+|    |    |    |         \--- :variants:variant_b:preBuild
+|    |    |    +--- :variants:variant_b:extractDebugAnnotations
+|    |    |    |    +--- :variants:variant_b:compileDebugAidl *
+|    |    |    |    +--- :variants:variant_b:compileDebugJavaWithJavac
+|    |    |    |    |    +--- :variants:variant_b:compileDebugAidl *
+|    |    |    |    |    +--- :variants:variant_b:compileDebugRenderscript
+|    |    |    |    |    |    \--- :variants:variant_b:preDebugBuild *
+|    |    |    |    |    +--- :variants:variant_b:generateDebugBuildConfig
+|    |    |    |    |    |    \--- :variants:variant_b:checkDebugManifest
+|    |    |    |    |    |         \--- :variants:variant_b:preDebugBuild *
+|    |    |    |    |    +--- :variants:variant_b:generateDebugRFile
+|    |    |    |    |    |    +--- :variants:variant_b:packageDebugResources
+|    |    |    |    |    |    |    \--- :variants:variant_b:generateDebugResources
+|    |    |    |    |    |    |         +--- :variants:variant_b:compileDebugRenderscript *
+|    |    |    |    |    |    |         \--- :variants:variant_b:generateDebugResValues
+|    |    |    |    |    |    \--- :variants:variant_b:processDebugManifest
+|    |    |    |    |    |         \--- :variants:variant_b:checkDebugManifest *
+|    |    |    |    |    +--- :variants:variant_b:generateDebugSources
+|    |    |    |    |    |    +--- :variants:variant_b:compileDebugAidl *
+|    |    |    |    |    |    +--- :variants:variant_b:compileDebugRenderscript *
+|    |    |    |    |    |    +--- :variants:variant_b:generateDebugBuildConfig *
+|    |    |    |    |    |    +--- :variants:variant_b:generateDebugRFile *
+|    |    |    |    |    |    \--- :variants:variant_b:prepareLintJar
+|    |    |    |    |    \--- :variants:variant_b:javaPreCompileDebug
+|    |    |    |    |         \--- :variants:variant_b:preDebugBuild *
+|    |    |    |    +--- :variants:variant_b:compileDebugRenderscript *
+|    |    |    |    +--- :variants:variant_b:generateDebugBuildConfig *
+|    |    |    |    \--- :variants:variant_b:generateDebugRFile *
+|    |    |    +--- :variants:variant_b:generateDebugRFile *
+|    |    |    +--- :variants:variant_b:mergeDebugConsumerProguardFiles
+|    |    |    +--- :variants:variant_b:packageDebugAssets
+|    |    |    |    +--- :variants:variant_b:compileDebugShaders
+|    |    |    |    |    \--- :variants:variant_b:mergeDebugShaders
+|    |    |    |    \--- :variants:variant_b:generateDebugAssets
+|    |    |    |         \--- :variants:variant_b:compileDebugShaders *
+|    |    |    +--- :variants:variant_b:packageDebugRenderscript
+|    |    |    +--- :variants:variant_b:packageDebugResources *
+|    |    |    +--- :variants:variant_b:prepareLintJar *
+|    |    |    +--- :variants:variant_b:processDebugManifest *
+|    |    |    +--- :variants:variant_b:transformClassesAndResourcesWithSyncLibJarsForDebug
+|    |    |    |    +--- :variants:variant_b:compileDebugJavaWithJavac *
+|    |    |    |    +--- :variants:variant_b:extractDebugAnnotations *
+|    |    |    |    \--- :variants:variant_b:transformResourcesWithMergeJavaResForDebug
+|    |    |    |         +--- :variants:variant_b:compileDebugJavaWithJavac *
+|    |    |    |         \--- :variants:variant_b:processDebugJavaRes
+|    |    |    |              \--- :variants:variant_b:preDebugBuild *
+|    |    |    \--- :variants:variant_b:transformNativeLibsWithSyncJniLibsForDebug
+|    |    |         \--- :variants:variant_b:transformNativeLibsWithStripDebugSymbolForDebug
+|    |    |              \--- :variants:variant_b:transformNativeLibsWithMergeJniLibsForDebug
+|    |    |                   +--- :variants:variant_b:compileDebugNdk
+|    |    |                   |    \--- :variants:variant_b:preDebugBuild *
+|    |    |                   \--- :variants:variant_b:mergeDebugJniLibFolders
+|    |    |                        \--- :variants:variant_b:generateDebugAssets *
+|    |    \--- :variants:variant_b:compileDebugSources
+|    |         +--- :variants:variant_b:compileDebugJavaWithJavac *
+|    |         \--- :variants:variant_b:compileDebugNdk *
+|    +--- :variants:variant_b:assembleRelease
+|    |    +--- :variants:variant_b:bundleReleaseAar
+|    |    |    +--- :variants:variant_b:compileReleaseAidl
+|    |    |    |    \--- :variants:variant_b:preReleaseBuild
+|    |    |    |         \--- :variants:variant_b:preBuild *
+|    |    |    +--- :variants:variant_b:extractReleaseAnnotations
+|    |    |    |    +--- :variants:variant_b:compileReleaseAidl *
+|    |    |    |    +--- :variants:variant_b:compileReleaseJavaWithJavac
+|    |    |    |    |    +--- :variants:variant_b:compileReleaseAidl *
+|    |    |    |    |    +--- :variants:variant_b:compileReleaseRenderscript
+|    |    |    |    |    |    \--- :variants:variant_b:preReleaseBuild *
+|    |    |    |    |    +--- :variants:variant_b:generateReleaseBuildConfig
+|    |    |    |    |    |    \--- :variants:variant_b:checkReleaseManifest
+|    |    |    |    |    |         \--- :variants:variant_b:preReleaseBuild *
+|    |    |    |    |    +--- :variants:variant_b:generateReleaseRFile
+|    |    |    |    |    |    +--- :variants:variant_b:packageReleaseResources
+|    |    |    |    |    |    |    \--- :variants:variant_b:generateReleaseResources
+|    |    |    |    |    |    |         +--- :variants:variant_b:compileReleaseRenderscript *
+|    |    |    |    |    |    |         \--- :variants:variant_b:generateReleaseResValues
+|    |    |    |    |    |    \--- :variants:variant_b:processReleaseManifest
+|    |    |    |    |    |         \--- :variants:variant_b:checkReleaseManifest *
+|    |    |    |    |    +--- :variants:variant_b:generateReleaseSources
+|    |    |    |    |    |    +--- :variants:variant_b:compileReleaseAidl *
+|    |    |    |    |    |    +--- :variants:variant_b:compileReleaseRenderscript *
+|    |    |    |    |    |    +--- :variants:variant_b:generateReleaseBuildConfig *
+|    |    |    |    |    |    +--- :variants:variant_b:generateReleaseRFile *
+|    |    |    |    |    |    \--- :variants:variant_b:prepareLintJar *
+|    |    |    |    |    \--- :variants:variant_b:javaPreCompileRelease
+|    |    |    |    |         \--- :variants:variant_b:preReleaseBuild *
+|    |    |    |    +--- :variants:variant_b:compileReleaseRenderscript *
+|    |    |    |    +--- :variants:variant_b:generateReleaseBuildConfig *
+|    |    |    |    \--- :variants:variant_b:generateReleaseRFile *
+|    |    |    +--- :variants:variant_b:generateReleaseRFile *
+|    |    |    +--- :variants:variant_b:mergeReleaseConsumerProguardFiles
+|    |    |    +--- :variants:variant_b:packageReleaseAssets
+|    |    |    |    +--- :variants:variant_b:compileReleaseShaders
+|    |    |    |    |    \--- :variants:variant_b:mergeReleaseShaders
+|    |    |    |    \--- :variants:variant_b:generateReleaseAssets
+|    |    |    |         \--- :variants:variant_b:compileReleaseShaders *
+|    |    |    +--- :variants:variant_b:packageReleaseRenderscript
+|    |    |    +--- :variants:variant_b:packageReleaseResources *
+|    |    |    +--- :variants:variant_b:prepareLintJar *
+|    |    |    +--- :variants:variant_b:processReleaseManifest *
+|    |    |    +--- :variants:variant_b:transformClassesAndResourcesWithSyncLibJarsForRelease
+|    |    |    |    +--- :variants:variant_b:compileReleaseJavaWithJavac *
+|    |    |    |    +--- :variants:variant_b:extractReleaseAnnotations *
+|    |    |    |    \--- :variants:variant_b:transformResourcesWithMergeJavaResForRelease
+|    |    |    |         +--- :variants:variant_b:compileReleaseJavaWithJavac *
+|    |    |    |         \--- :variants:variant_b:processReleaseJavaRes
+|    |    |    |              \--- :variants:variant_b:preReleaseBuild *
+|    |    |    \--- :variants:variant_b:transformNativeLibsWithSyncJniLibsForRelease
+|    |    |         \--- :variants:variant_b:transformNativeLibsWithStripDebugSymbolForRelease
+|    |    |              \--- :variants:variant_b:transformNativeLibsWithMergeJniLibsForRelease
+|    |    |                   +--- :variants:variant_b:compileReleaseNdk
+|    |    |                   |    \--- :variants:variant_b:preReleaseBuild *
+|    |    |                   \--- :variants:variant_b:mergeReleaseJniLibFolders
+|    |    |                        \--- :variants:variant_b:generateReleaseAssets *
+|    |    +--- :variants:variant_b:compileReleaseSources
+|    |    |    +--- :variants:variant_b:compileReleaseJavaWithJavac *
+|    |    |    \--- :variants:variant_b:compileReleaseNdk *
+|    |    \--- :variants:variant_b:verifyReleaseResources
+|    |         +--- :variants:variant_b:mergeReleaseResources
+|    |         |    \--- :variants:variant_b:generateReleaseResources *
+|    |         \--- :variants:variant_b:processReleaseManifest *
+|    \--- :variants:variant_b:bundleReleaseAar *
+\--- :variants:variant_b:check
+     +--- :variants:variant_b:lint
+     |    +--- :variants:variant_b:compileDebugJavaWithJavac *
+     |    +--- :variants:variant_b:compileReleaseJavaWithJavac *
+     |    +--- :variants:variant_b:prepareLintJar *
+     |    +--- :variants:variant_b:processDebugManifest *
+     |    \--- :variants:variant_b:processReleaseManifest *
+     \--- :variants:variant_b:test
+          +--- :variants:variant_b:testDebugUnitTest
+          |    +--- :variants:variant_b:compileDebugJavaWithJavac *
+          |    +--- :variants:variant_b:compileDebugUnitTestJavaWithJavac
+          |    |    +--- :variants:variant_b:compileDebugJavaWithJavac *
+          |    |    +--- :variants:variant_b:generateDebugUnitTestSources
+          |    |    |    \--- :variants:variant_b:prepareLintJar *
+          |    |    \--- :variants:variant_b:javaPreCompileDebugUnitTest
+          |    |         +--- :variants:variant_b:compileDebugJavaWithJavac *
+          |    |         \--- :variants:variant_b:preDebugUnitTestBuild
+          |    |              \--- :variants:variant_b:preBuild *
+          |    +--- :variants:variant_b:processDebugManifest *
+          |    +--- :variants:variant_b:processDebugUnitTestJavaRes
+          |    |    \--- :variants:variant_b:preDebugUnitTestBuild *
+          |    \--- :variants:variant_b:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+          |         +--- :variants:variant_b:compileDebugJavaWithJavac *
+          |         \--- :variants:variant_b:processDebugJavaRes *
+          \--- :variants:variant_b:testReleaseUnitTest
+               +--- :variants:variant_b:compileReleaseJavaWithJavac *
+               +--- :variants:variant_b:compileReleaseUnitTestJavaWithJavac
+               |    +--- :variants:variant_b:compileReleaseJavaWithJavac *
+               |    +--- :variants:variant_b:generateReleaseUnitTestSources
+               |    |    \--- :variants:variant_b:prepareLintJar *
+               |    \--- :variants:variant_b:javaPreCompileReleaseUnitTest
+               |         +--- :variants:variant_b:compileReleaseJavaWithJavac *
+               |         \--- :variants:variant_b:preReleaseUnitTestBuild
+               |              \--- :variants:variant_b:preBuild *
+               +--- :variants:variant_b:processReleaseManifest *
+               +--- :variants:variant_b:processReleaseUnitTestJavaRes
+               |    \--- :variants:variant_b:preReleaseUnitTestBuild *
+               \--- :variants:variant_b:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+                    +--- :variants:variant_b:compileReleaseJavaWithJavac *
+                    \--- :variants:variant_b:processReleaseJavaRes *
+
+
+(*) - subtree omitted (printed previously)
+
+To see task dependency tree for a specific task, run gradle <project-path>:<task> <project-path>:taskTree [--no-repeat]
+Executions of all tasks except for taskTree will be skipped. They will be used for building the task graph only.
+
+Add --no-repeat to prevent printing a subtree of the same task more than once.
+
+For example, try running gradle :variants:variant_b:build :variants:variant_b:taskTree
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+See https://docs.gradle.org/4.6/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 1s
+6 actionable tasks: 6 executed

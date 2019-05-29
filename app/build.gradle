@@ -14,10 +14,11 @@ android {
 
         // define your base Applications name here
         resValue 'string', 'app_name', 'GradleApkDemo'
-
-        //有需求的同学这里也同样可以增加维度.项目已运用
-        flavorDimensions "dimension"
     }
+
+
+    //有需求的同学这里也同样可以增加维度.项目已运用
+    flavorDimensions "channel"
 
     /**
      * @notice flavor命名首字母必须为小写
@@ -28,12 +29,16 @@ android {
         variant_a {
             // Assigns this product flavor to the "version" flavor dimension.
             // This property is optional if you are using only one dimension.
-            dimension "dimension"
+            dimension "channel"
             applicationIdSuffix ".demo"
             applicationId "com.jacky.variant_a"
             resValue 'string', 'app_name', 'Gradle_A'
+
+            // replace
+//            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "qh360"]
         }
         variant_b {
+            dimension "channel"
             applicationId "com.jacky.variant_b"
             resValue 'string', 'app_name', 'Gradle_B'
         }
@@ -65,7 +70,11 @@ android {
 }
 
 // to test order
-println 'build.gradle的配置阶段'
+println 'app build.gradle的配置阶段'
+println "app: project hashcode ${this.hashCode()}"
+
+List<String> taskNs = gradle.getStartParameter().getTaskNames()
+println "taskName ==>: ${taskNs.toString()}"
 
 // 创建一个Task 。 一定要注意，配置阶段不仅执行build.gradle中的语句，还包括了 aTask 中的配置语句
 task aTask() {
@@ -88,6 +97,10 @@ gradle.beforeProject {
     println 'app: beforeProject'
 }
 
+gradle.afterProject {
+    println 'app: afterProject'
+}
+
 tasks.whenTaskAdded { task ->
     android.applicationVariants.all { variant ->
 //        println "tasks.whenTaskAdded==> ${variant}"
@@ -108,10 +121,6 @@ afterEvaluate {
     build.dependsOn cleanTemp
 }
 
-// 拿到currentFlavor
-String taskName = gradle.getStartParameter().getTaskNames()[0]
-println "taskName ==>: " + taskName
-
 dependencies {
     println 'start to solve dependencies'
 
@@ -124,7 +133,6 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
     // 自动依赖Flavor
-//    implementation project(':variants:' + rootProject.ext.currentFlavor)
-
+    implementation project(':variants:' + rootProject.ext.currentFlavor)
     println 'end to solve dependencies'
 }
