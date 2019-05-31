@@ -6,6 +6,8 @@
 4. Hook点, Gradle提供了非常多的钩子供开发人员修改构建过程中的行为
 5. 动态改变Task依赖关系
 6. [动态修改label示例](https://stackoverflow.com/questions/32092665/resolve-application-label-for-each-build-type)
+7. [Versioning your builds via "version.properties" file](https://riptutorial.com/android/example/7837/versioning-your-builds-via--version-properties--file)
+
 
 ### 实用记录
 

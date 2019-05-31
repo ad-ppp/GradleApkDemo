@@ -4,16 +4,37 @@ apply plugin: 'kotlin-android-extensions'
 
 android {
     compileSdkVersion 28
-    defaultConfig {
-        applicationId "com.example.gradle.dividerapkdemo"
-        minSdkVersion 15
-        targetSdkVersion 28
-        versionCode 1
-        versionName "1.0"
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
-        // define your base Applications name here
-        resValue 'string', 'app_name', 'GradleApkDemo'
+    // Read version information from local file and increment as appropriate
+    def versionPropsFile = file('version.properties')
+    if (versionPropsFile.canRead()) {
+        Properties versionProps = new Properties()
+        versionProps.load(new FileInputStream(versionPropsFile))
+
+        def versionMajor = versionProps['VERSION_MAJOR'].toInteger()
+        def versionMinor = versionProps['VERSION_MINOR'].toInteger()
+        def versionSubMinor = versionProps['VERSION_SUB_MINOR'].toInteger()
+        def versionBuild = versionProps['VERSION_BUILD'].toInteger() + 1
+        println "read property: [versionMajor: ${versionMajor},versionMinor: ${versionMinor}, versionBuild: ${versionBuild}]"
+
+        // Update the build number in the local file
+        versionProps['VERSION_BUILD'] = versionBuild.toString()
+        versionProps.store(versionPropsFile.newWriter(), " update verison build")
+
+        def versionC = versionMajor*10000 + versionMinor*1000 + versionSubMinor*100 + versionBuild
+
+        defaultConfig {
+            applicationId "com.example.gradle.dividerapkdemo"
+            minSdkVersion 15
+            targetSdkVersion 28
+            versionCode versionC
+            versionName "${versionMajor}.${versionMinor}.${versionSubMinor}.${versionBuild}"
+            testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+            println "[versionCode:${versionCode}, versionName:${versionName}]"
+            // define your base Applications name here
+            resValue 'string', 'app_name', 'GradleApkDemo'
+        }
     }
 
 
@@ -21,8 +42,7 @@ android {
     flavorDimensions "channel"
 
     /**
-     * @notice flavor命名首字母必须为小写
-     *    这里:不要使用 applicationId this.ext.vatiant.applicationId
+     * @notice flavor命名首字母必须为小写*    这里:不要使用 applicationId this.ext.vatiant.applicationId
      *    release包没问题,但是debug是有问题的.
      */
     productFlavors {
@@ -51,11 +71,11 @@ android {
         }
     }
 
-    signingConfigs{
+    signingConfigs {
         println "sign config <----"
     }
 
-    applicationVariants.all { variant->
+    applicationVariants.all { variant ->
         println "applicationVariants.all; 【${variant.buildType.name}，${variant.flavorName}]"
 
         variant.outputs.all { output ->
@@ -125,7 +145,7 @@ dependencies {
     println 'start to solve dependencies'
 
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation rootProject.ext.appCompatV7
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
     testImplementation 'junit:junit:4.12'
