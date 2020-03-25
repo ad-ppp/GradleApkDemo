@@ -13,7 +13,7 @@
 
 1. `gradle --help`
 2. 查看task依赖关系： gradle.plugin.com.dorongold.plugins:task-tree:1.3.1
-gradle ${taskName} tasktree --no-repeat
+gradle ${taskName} tasktree --no-repeat 比如`gradle :app:assembleVariant_aDebug tasktree --no-repeat`
 3. 部分配置可以参考 telegram.gradle
 
 ### 构建差异化 apk 遇到问题记录

@@ -21,7 +21,7 @@ android {
         versionProps['VERSION_BUILD'] = versionBuild.toString()
         versionProps.store(versionPropsFile.newWriter(), " update verison build")
 
-        def versionC = versionMajor*10000 + versionMinor*1000 + versionSubMinor*100 + versionBuild
+        def versionC = versionMajor * 10000 + versionMinor * 1000 + versionSubMinor * 100 + versionBuild
 
         defaultConfig {
             applicationId "com.example.gradle.dividerapkdemo"
@@ -130,11 +130,15 @@ tasks.whenTaskAdded { task ->
 // 动态插入自定义任务，依赖 assemble
 task cleanTemp(dependsOn: assemble) {
     doFirst {
-        println 'doFirst 清除所有临时文件'
+        println 'cleanTemp doFirst 2'
     }
     doLast {
-        println 'doLast 清除所有临时文件'
+        println 'cleanTemp doLast 清除所有临时文件'
     }
+}
+
+cleanTemp.doFirst {
+    println 'cleanTemp doFirst 1'
 }
 
 afterEvaluate {
@@ -154,5 +158,29 @@ dependencies {
 
     // 自动依赖Flavor
     implementation project(':variants:' + rootProject.ext.currentFlavor)
+
+    // just add here to see the source of gradle
+//    implementation 'com.android.tools.build:gradle:3.2.1'
+
     println 'end to solve dependencies'
+
+}
+
+// 通过@TaskAction操作符也可以指定一个Task执行时要做的事情，它区别于doFirst和doLast
+class MyTask extends DefaultTask {
+
+    String message = 'This is MyTask'
+
+    // @TaskAction 表示该Task要执行的动作,即在调用该Task时，hello()方法将被执行
+    @TaskAction
+    def hello() {
+        println "Hello gradle. $message"
+    }
+}
+
+// hello使用了默认的message值
+task hello(type: MyTask)
+
+task hello1(type: MyTask) {
+    message = "I am an android developer"
 }

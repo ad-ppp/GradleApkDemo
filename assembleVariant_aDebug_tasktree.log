@@ -1,0 +1,310 @@
+setting.gradle settingsEvaluated
+初始化阶段，耗时：4ms
+start execute project buildscript dependencies
+start execute project gradle
+taskName : [DefaultTaskExecutionRequest{args=[:app:assembleVariant_aDebug, tasktree, --no-repeat],projectPath='null'}]
+currentFlavor:variant_a
+read property: [versionMajor: 4,versionMinor: 9, versionBuild: 46]
+[versionCode:49546, versionName:4.9.5.46]
+sign config <----
+app build.gradle的配置阶段
+app: project hashcode 263979440
+taskName ==>: [:app:assembleVariant_aDebug, tasktree, --no-repeat]
+aTask 中的配置代码
+aTask 中的配置代码2
+start to solve dependencies
+end to solve dependencies
+app: afterProject
+applicationVariants.all; 【debug，variant_b]
+applicationVariants.all; 【release，variant_b]
+applicationVariants.all; 【debug，variant_a]
+applicationVariants.all; 【release，variant_a]
+app: beforeProject
+app: afterProject
+app: beforeProject
+app: afterProject
+app: beforeProject
+variant_a build.gradle的配置阶段
+variant_a: project hashcode 915094886
+app: afterProject
+app: beforeProject
+app: afterProject
+:app:checkVariant_aDebugClasspath SKIPPED
+:app:preBuild SKIPPED
+:variants:variant_a:preBuild SKIPPED
+:variants:variant_a:preDebugBuild SKIPPED
+:variants:variant_a:checkDebugManifest SKIPPED
+:variants:variant_a:processDebugManifest SKIPPED
+:app:preVariant_aDebugBuild SKIPPED
+:variants:variant_a:compileDebugAidl SKIPPED
+:app:compileVariant_aDebugAidl SKIPPED
+:variants:variant_a:packageDebugRenderscript SKIPPED
+:app:compileVariant_aDebugRenderscript SKIPPED
+:app:checkVariant_aDebugManifest SKIPPED
+:app:generateVariant_aDebugBuildConfig SKIPPED
+:app:mainApkListPersistenceVariant_aDebug SKIPPED
+:app:generateVariant_aDebugResValues SKIPPED
+:app:generateVariant_aDebugResources SKIPPED
+:variants:variant_a:compileDebugRenderscript SKIPPED
+:variants:variant_a:generateDebugResValues SKIPPED
+:variants:variant_a:generateDebugResources SKIPPED
+:variants:variant_a:packageDebugResources SKIPPED
+:app:mergeVariant_aDebugResources SKIPPED
+:app:createVariant_aDebugCompatibleScreenManifests SKIPPED
+:app:processVariant_aDebugManifest SKIPPED
+:app:splitsDiscoveryTaskVariant_aDebug SKIPPED
+:variants:variant_a:generateDebugRFile SKIPPED
+:app:processVariant_aDebugResources SKIPPED
+:variants:variant_a:generateDebugBuildConfig SKIPPED
+:variants:variant_a:prepareLintJar SKIPPED
+:variants:variant_a:generateDebugSources SKIPPED
+:variants:variant_a:javaPreCompileDebug SKIPPED
+:variants:variant_a:compileDebugJavaWithJavac SKIPPED
+:variants:variant_a:processDebugJavaRes SKIPPED
+:variants:variant_a:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug SKIPPED
+:app:compileVariant_aDebugKotlin SKIPPED
+:app:prepareLintJar SKIPPED
+:app:generateVariant_aDebugSources SKIPPED
+:app:javaPreCompileVariant_aDebug SKIPPED
+:app:compileVariant_aDebugJavaWithJavac SKIPPED
+:app:compileVariant_aDebugNdk SKIPPED
+:app:compileVariant_aDebugSources SKIPPED
+:app:mergeVariant_aDebugShaders SKIPPED
+:app:compileVariant_aDebugShaders SKIPPED
+:app:generateVariant_aDebugAssets SKIPPED
+:variants:variant_a:mergeDebugShaders SKIPPED
+:variants:variant_a:compileDebugShaders SKIPPED
+:variants:variant_a:generateDebugAssets SKIPPED
+:variants:variant_a:packageDebugAssets SKIPPED
+:app:mergeVariant_aDebugAssets SKIPPED
+:app:transformClassesWithDexBuilderForVariant_aDebug SKIPPED
+:app:transformDexArchiveWithExternalLibsDexMergerForVariant_aDebug SKIPPED
+:app:transformDexArchiveWithDexMergerForVariant_aDebug SKIPPED
+:app:mergeVariant_aDebugJniLibFolders SKIPPED
+:variants:variant_a:compileDebugNdk SKIPPED
+:variants:variant_a:mergeDebugJniLibFolders SKIPPED
+:variants:variant_a:transformNativeLibsWithMergeJniLibsForDebug SKIPPED
+:variants:variant_a:transformNativeLibsWithStripDebugSymbolForDebug SKIPPED
+:variants:variant_a:transformNativeLibsWithIntermediateJniLibsForDebug SKIPPED
+:app:transformNativeLibsWithMergeJniLibsForVariant_aDebug SKIPPED
+:app:transformNativeLibsWithStripDebugSymbolForVariant_aDebug SKIPPED
+:app:checkVariant_aDebugLibraries SKIPPED
+:app:processVariant_aDebugJavaRes SKIPPED
+:app:transformResourcesWithMergeJavaResForVariant_aDebug SKIPPED
+:app:validateSigningVariant_aDebug SKIPPED
+:app:packageVariant_aDebug SKIPPED
+:app:assembleVariant_aDebug SKIPPED
+:taskTree
+
+------------------------------------------------------------
+Root project
+------------------------------------------------------------
+
+
+(*) - subtree omitted (printed previously)
+
+To see task dependency tree for a specific task, run gradle <project-path>:<task> <project-path>:taskTree [--no-repeat]
+Executions of all tasks except for taskTree will be skipped. They will be used for building the task graph only.
+
+Add --no-repeat to prevent printing a subtree of the same task more than once.
+
+For example, try running gradle :app:build :app:taskTree
+:app:taskTree
+
+------------------------------------------------------------
+Project :app
+------------------------------------------------------------
+
+:app:assembleVariant_aDebug
++--- :app:compileVariant_aDebugSources
+|    +--- :app:compileVariant_aDebugJavaWithJavac
+|    |    +--- :app:compileVariant_aDebugAidl
+|    |    |    +--- :app:preVariant_aDebugBuild
+|    |    |    |    +--- :app:checkVariant_aDebugClasspath
+|    |    |    |    +--- :app:preBuild
+|    |    |    |    \--- :variants:variant_a:processDebugManifest
+|    |    |    |         \--- :variants:variant_a:checkDebugManifest
+|    |    |    |              \--- :variants:variant_a:preDebugBuild
+|    |    |    |                   \--- :variants:variant_a:preBuild
+|    |    |    \--- :variants:variant_a:compileDebugAidl
+|    |    |         \--- :variants:variant_a:preDebugBuild *
+|    |    +--- :app:compileVariant_aDebugKotlin
+|    |    |    +--- :app:compileVariant_aDebugAidl *
+|    |    |    +--- :app:compileVariant_aDebugRenderscript
+|    |    |    |    +--- :app:preVariant_aDebugBuild *
+|    |    |    |    \--- :variants:variant_a:packageDebugRenderscript
+|    |    |    +--- :app:generateVariant_aDebugBuildConfig
+|    |    |    |    \--- :app:checkVariant_aDebugManifest
+|    |    |    |         \--- :app:preVariant_aDebugBuild *
+|    |    |    +--- :app:processVariant_aDebugResources
+|    |    |    |    +--- :app:mainApkListPersistenceVariant_aDebug
+|    |    |    |    +--- :app:mergeVariant_aDebugResources
+|    |    |    |    |    +--- :app:generateVariant_aDebugResources
+|    |    |    |    |    |    +--- :app:compileVariant_aDebugRenderscript *
+|    |    |    |    |    |    \--- :app:generateVariant_aDebugResValues
+|    |    |    |    |    \--- :variants:variant_a:packageDebugResources
+|    |    |    |    |         \--- :variants:variant_a:generateDebugResources
+|    |    |    |    |              +--- :variants:variant_a:compileDebugRenderscript
+|    |    |    |    |              |    \--- :variants:variant_a:preDebugBuild *
+|    |    |    |    |              \--- :variants:variant_a:generateDebugResValues
+|    |    |    |    +--- :app:processVariant_aDebugManifest
+|    |    |    |    |    +--- :app:checkVariant_aDebugManifest *
+|    |    |    |    |    +--- :app:createVariant_aDebugCompatibleScreenManifests
+|    |    |    |    |    +--- :app:mainApkListPersistenceVariant_aDebug *
+|    |    |    |    |    \--- :variants:variant_a:processDebugManifest *
+|    |    |    |    +--- :app:splitsDiscoveryTaskVariant_aDebug
+|    |    |    |    \--- :variants:variant_a:generateDebugRFile
+|    |    |    |         +--- :variants:variant_a:packageDebugResources *
+|    |    |    |         \--- :variants:variant_a:processDebugManifest *
+|    |    |    \--- :variants:variant_a:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+|    |    |         +--- :variants:variant_a:compileDebugJavaWithJavac
+|    |    |         |    +--- :variants:variant_a:compileDebugAidl *
+|    |    |         |    +--- :variants:variant_a:compileDebugRenderscript *
+|    |    |         |    +--- :variants:variant_a:generateDebugBuildConfig
+|    |    |         |    |    \--- :variants:variant_a:checkDebugManifest *
+|    |    |         |    +--- :variants:variant_a:generateDebugRFile *
+|    |    |         |    +--- :variants:variant_a:generateDebugSources
+|    |    |         |    |    +--- :variants:variant_a:compileDebugAidl *
+|    |    |         |    |    +--- :variants:variant_a:compileDebugRenderscript *
+|    |    |         |    |    +--- :variants:variant_a:generateDebugBuildConfig *
+|    |    |         |    |    +--- :variants:variant_a:generateDebugRFile *
+|    |    |         |    |    \--- :variants:variant_a:prepareLintJar
+|    |    |         |    \--- :variants:variant_a:javaPreCompileDebug
+|    |    |         |         \--- :variants:variant_a:preDebugBuild *
+|    |    |         \--- :variants:variant_a:processDebugJavaRes
+|    |    |              \--- :variants:variant_a:preDebugBuild *
+|    |    +--- :app:compileVariant_aDebugRenderscript *
+|    |    +--- :app:generateVariant_aDebugBuildConfig *
+|    |    +--- :app:generateVariant_aDebugSources
+|    |    |    +--- :app:compileVariant_aDebugAidl *
+|    |    |    +--- :app:compileVariant_aDebugRenderscript *
+|    |    |    +--- :app:generateVariant_aDebugBuildConfig *
+|    |    |    +--- :app:prepareLintJar
+|    |    |    \--- :app:processVariant_aDebugResources *
+|    |    +--- :app:javaPreCompileVariant_aDebug
+|    |    |    +--- :app:compileVariant_aDebugKotlin *
+|    |    |    +--- :app:preVariant_aDebugBuild *
+|    |    |    \--- :variants:variant_a:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug *
+|    |    +--- :app:processVariant_aDebugResources *
+|    |    \--- :variants:variant_a:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug *
+|    \--- :app:compileVariant_aDebugNdk
+|         \--- :app:preVariant_aDebugBuild *
+\--- :app:packageVariant_aDebug
+     +--- :app:compileVariant_aDebugJavaWithJavac *
+     +--- :app:mainApkListPersistenceVariant_aDebug *
+     +--- :app:mergeVariant_aDebugAssets
+     |    +--- :app:compileVariant_aDebugShaders
+     |    |    \--- :app:mergeVariant_aDebugShaders
+     |    +--- :app:generateVariant_aDebugAssets
+     |    |    \--- :app:compileVariant_aDebugShaders *
+     |    \--- :variants:variant_a:packageDebugAssets
+     |         +--- :variants:variant_a:compileDebugShaders
+     |         |    \--- :variants:variant_a:mergeDebugShaders
+     |         \--- :variants:variant_a:generateDebugAssets
+     |              \--- :variants:variant_a:compileDebugShaders *
+     +--- :app:processVariant_aDebugManifest *
+     +--- :app:processVariant_aDebugResources *
+     +--- :app:transformDexArchiveWithDexMergerForVariant_aDebug
+     |    +--- :app:transformClassesWithDexBuilderForVariant_aDebug
+     |    |    +--- :app:compileVariant_aDebugJavaWithJavac *
+     |    |    +--- :app:compileVariant_aDebugKotlin *
+     |    |    \--- :variants:variant_a:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug *
+     |    \--- :app:transformDexArchiveWithExternalLibsDexMergerForVariant_aDebug
+     |         \--- :app:transformClassesWithDexBuilderForVariant_aDebug *
+     +--- :app:transformNativeLibsWithStripDebugSymbolForVariant_aDebug
+     |    \--- :app:transformNativeLibsWithMergeJniLibsForVariant_aDebug
+     |         +--- :app:compileVariant_aDebugNdk *
+     |         +--- :app:mergeVariant_aDebugJniLibFolders
+     |         |    \--- :app:generateVariant_aDebugAssets *
+     |         +--- :variants:variant_a:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug *
+     |         \--- :variants:variant_a:transformNativeLibsWithIntermediateJniLibsForDebug
+     |              \--- :variants:variant_a:transformNativeLibsWithStripDebugSymbolForDebug
+     |                   \--- :variants:variant_a:transformNativeLibsWithMergeJniLibsForDebug
+     |                        +--- :variants:variant_a:compileDebugNdk
+     |                        |    \--- :variants:variant_a:preDebugBuild *
+     |                        \--- :variants:variant_a:mergeDebugJniLibFolders
+     |                             \--- :variants:variant_a:generateDebugAssets *
+     +--- :app:transformResourcesWithMergeJavaResForVariant_aDebug
+     |    +--- :app:checkVariant_aDebugLibraries
+     |    +--- :app:compileVariant_aDebugJavaWithJavac *
+     |    +--- :app:compileVariant_aDebugKotlin *
+     |    +--- :app:processVariant_aDebugJavaRes
+     |    |    \--- :app:preVariant_aDebugBuild *
+     |    \--- :variants:variant_a:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug *
+     \--- :app:validateSigningVariant_aDebug
+
+
+(*) - subtree omitted (printed previously)
+
+To see task dependency tree for a specific task, run gradle <project-path>:<task> <project-path>:taskTree [--no-repeat]
+Executions of all tasks except for taskTree will be skipped. They will be used for building the task graph only.
+
+Add --no-repeat to prevent printing a subtree of the same task more than once.
+
+For example, try running gradle :app:build :app:taskTree
+:sublib:taskTree
+
+------------------------------------------------------------
+Project :sublib
+------------------------------------------------------------
+
+
+(*) - subtree omitted (printed previously)
+
+To see task dependency tree for a specific task, run gradle <project-path>:<task> <project-path>:taskTree [--no-repeat]
+Executions of all tasks except for taskTree will be skipped. They will be used for building the task graph only.
+
+Add --no-repeat to prevent printing a subtree of the same task more than once.
+
+For example, try running gradle :sublib:build :sublib:taskTree
+:variants:taskTree
+
+------------------------------------------------------------
+Project :variants
+------------------------------------------------------------
+
+
+(*) - subtree omitted (printed previously)
+
+To see task dependency tree for a specific task, run gradle <project-path>:<task> <project-path>:taskTree [--no-repeat]
+Executions of all tasks except for taskTree will be skipped. They will be used for building the task graph only.
+
+Add --no-repeat to prevent printing a subtree of the same task more than once.
+
+For example, try running gradle :variants:variant_a:build :variants:variant_a:taskTree
+:variants:variant_a:taskTree
+
+------------------------------------------------------------
+Project :variants:variant_a
+------------------------------------------------------------
+
+
+(*) - subtree omitted (printed previously)
+
+To see task dependency tree for a specific task, run gradle <project-path>:<task> <project-path>:taskTree [--no-repeat]
+Executions of all tasks except for taskTree will be skipped. They will be used for building the task graph only.
+
+Add --no-repeat to prevent printing a subtree of the same task more than once.
+
+For example, try running gradle :variants:variant_a:build :variants:variant_a:taskTree
+:variants:variant_b:taskTree
+
+------------------------------------------------------------
+Project :variants:variant_b
+------------------------------------------------------------
+
+
+(*) - subtree omitted (printed previously)
+
+To see task dependency tree for a specific task, run gradle <project-path>:<task> <project-path>:taskTree [--no-repeat]
+Executions of all tasks except for taskTree will be skipped. They will be used for building the task graph only.
+
+Add --no-repeat to prevent printing a subtree of the same task more than once.
+
+For example, try running gradle :variants:variant_b:build :variants:variant_b:taskTree
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+See https://docs.gradle.org/4.6/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 0s
+6 actionable tasks: 6 executed
